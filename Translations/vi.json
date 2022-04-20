@@ -20,7 +20,7 @@
 
 	"assetsLibraryDialog.title": "Assets Library",
 
-	"assetsSelector.noAssetsAvailable": "No assets available",
+	"assetsSelector.noAssetsAvailable": "Không có tài nguyên ở đây",
 
 	"scene.appVersion": "Phiên bản",
 	"scene.title": "Tiêu đề",
@@ -44,7 +44,7 @@
 	"profile": "Hồ sơ người dùng",
 	"logout": "Đăng xuất",
 
-	"continueWithFacebook": "Đăng nhập với Facebook",
+	"continueWithFacebook": "Tiếp tục với Facebook",
 
 	"save": "Lưu",
 	"saveSuccess": "Lưu thành công",
@@ -111,8 +111,8 @@
 	"action.help.social": "Mạng xã hội",
 
 	"action.design.select": "Lựa chọn",
-	"action.design.move": "Move Tool",
-	"action.design.mirror": "Mirror Tool",
+	"action.design.move": "Di chuyển",
+	"action.design.mirror": "Lật",
 	"action.design.circle": "Tạo hình tròn",
 	"action.design.rectangle": "Tạo hình chữ nhật",
 	"action.design.polygon": "Tạo hình đa giác",
@@ -122,7 +122,7 @@
 	"action.design.spiral": "Tạo đường xoáy",
 	"action.design.gear": "Tạo bánh răng",
 	"action.design.rope": "Tạo dây",
-	"action.design.joint.weld": "Weld Joint",
+	"action.design.joint.weld": "Tạo liên kết hàn",
 	"action.design.joint.revolute": "Tạo trục quay",
 	"action.design.joint.distance": "Tạo liên kết từ xa",
 	"action.design.joint.mouse": "Kéo chuột",
@@ -181,8 +181,8 @@
 	"Node.y": "Vị trí Y",
 	"Node.angle": "Góc",
 	"Node.alpha": "Độ trong suốt",
-	"Node.scripts": "Scripts",
-	"Node.userData": "User Data",
+	"Node.scripts": "Script",
+	"Node.userData": "Dữ liệu người dùng",
 
 	"Scene": "Scene",
 	"Scene.timeStep": "Thời gian mỗi bước",
@@ -194,7 +194,7 @@
 	"Scene.subStepping": "Bước trung gian",
 	"Scene.velocityIterations": "Lặp tính toán vận tốc",
 	"Scene.positionIterations": "Lặp tính toán vị trí",
-	"Scene.followedNodeId": "Followed Node",
+	"Scene.followedNodeId": "Đi theo Node",
 	"Scene.backgroundColor": "Màu nền",
 	"Scene.viewportZoom": "Thu phóng",
 	"Scene.viewportCenter": "Tâm màn hình",
@@ -283,10 +283,10 @@
 	"JointNode.anchorA": "Anchor A",
 	"JointNode.anchorB": "Anchor B",
 
-	"WeldJointNode": "Weld Joint",
-	"WeldJointNode.frequencyHz": "Frequency Hz",
-	"WeldJointNode.dampingRatio": "Damping Ratio",
-	"WeldJointNode.size": "Size",
+	"WeldJointNode": "Liên kết hàn",
+	"WeldJointNode.frequencyHz": "Tần số Hz",
+	"WeldJointNode.dampingRatio": "Tỉ số giảm xóc",
+	"WeldJointNode.size": "Kích thước",
 
 	"RevoluteJointNode": "Trục quay",
 	"RevoluteJointNode.motorEnabled": "Động cơ",
