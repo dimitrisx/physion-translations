@@ -220,6 +220,7 @@
 	"BodyNode.linearVelocityX": "Vận tốc X",
 	"BodyNode.linearVelocityY": "Vận tốc Y",
 	"BodyNode.angularVelocity": "Vận tốc góc",
+	"BodyNode.gravityScale": "Gravity Scale",
 	"BodyNode.friction": "Độ ma sát",
 	"BodyNode.restitution": "Độ nảy",
 	"BodyNode.density": "Khối lượng riêng",

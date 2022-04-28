@@ -220,6 +220,7 @@
 	"BodyNode.linearVelocityX": "Velocidade linear X",
 	"BodyNode.linearVelocityY": "Velocidade linear Y",
 	"BodyNode.angularVelocity": "Velocidade angular",
+	"BodyNode.gravityScale": "Gravity Scale",
 	"BodyNode.friction": "Atrito",
 	"BodyNode.restitution": "Restituição",
 	"BodyNode.density": "Densidade",
