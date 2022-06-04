@@ -126,6 +126,8 @@
 	"action.design.joint.revolute": "Σύνδεσμος περιστροφής",
 	"action.design.joint.distance": "Σύνδεσμος απόστασης",
 	"action.design.joint.mouse": "Σύνδεσμος ποντικιού",
+	"action.design.liquify": "Υγροποίηση",
+	"action.design.elastify": "Ελαστικοποίηση",
 
 	"action.sceneControl.toggle": "Εναλλαγή Προσομοίωσης",
 
@@ -160,6 +162,8 @@
 	"ReorderNodeCommand": "Αναδιάταξη Κόμβου",
 	"MoveNodesCommand": "Μετακίνηση Κόμβων",
 	"MirrorNodesCommand": "Αντιστροφή Κόμβων",
+	"LiquifyCommand": "Υγροποίηση",
+	"ElastifyCommand": "Ελαστικοποίηση",
 
 	"CoreObject": "Αντικείμενο",
 	"CoreObject.id": "Ταυτότητα",
@@ -194,6 +198,7 @@
 	"Scene.subStepping": "Υποβηματισμός",
 	"Scene.velocityIterations": "Επαναλήψεις Ταχύτητας",
 	"Scene.positionIterations": "Επαναλήψεις Θέσης",
+	"Scene.particleIterations": "Επαναλήψεις Σωματιδίων",
 	"Scene.followedNodeId": "Ακολουθούμενος κόμβος",
 	"Scene.backgroundColor": "Χρώμα Φόντου",
 	"Scene.viewportZoom": "Zoom Θέασης",
@@ -309,6 +314,13 @@
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Εικόνα",
 	"SpriteNode.scale": "Κλίμακα",
+
+	"ParticleGroupNode": "Particle Group",
+	"ParticleGroupNode.internalState": "Internal State",
+	
+	"LiquidNode": "Liquid Node",
+	
+	"ElasticNode": "Elastic Node",
 
 	"BodyActionOptions.static": "Στατικό",
 	"RegularPolygonActionOptions.sides": "Πλευρές",

@@ -126,6 +126,8 @@
 	"action.design.joint.revolute": "Tạo trục quay",
 	"action.design.joint.distance": "Tạo liên kết từ xa",
 	"action.design.joint.mouse": "Kéo chuột",
+	"action.design.liquify": "Liquify",
+	"action.design.elastify": "Elastify",
 
 	"action.sceneControl.toggle": "Chạy",
 
@@ -160,6 +162,8 @@
 	"ReorderNodeCommand": "Sắp xếp lại Node",
 	"MoveNodesCommand": "Move Nodes",
 	"MirrorNodesCommand": "Mirror Nodes",
+	"LiquifyCommand": "Liquify",
+	"ElastifyCommand": "Elastify",
 
 	"CoreObject": "Object",	
 	"CoreObject.id": "ID",
@@ -194,6 +198,7 @@
 	"Scene.subStepping": "Bước trung gian",
 	"Scene.velocityIterations": "Lặp tính toán vận tốc",
 	"Scene.positionIterations": "Lặp tính toán vị trí",
+	"Scene.particleIterations": "Particle Iterations",
 	"Scene.followedNodeId": "Đi theo Node",
 	"Scene.backgroundColor": "Màu nền",
 	"Scene.viewportZoom": "Thu phóng",
@@ -309,6 +314,13 @@
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Texture",
 	"SpriteNode.scale": "Kích thước",
+
+	"ParticleGroupNode": "Particle Group",
+	"ParticleGroupNode.internalState": "Internal State",
+	
+	"LiquidNode": "Liquid Node",
+
+	"ElasticNode": "Elastic Node",
 
 	"BodyActionOptions.static": "Cố định",
 	"RegularPolygonActionOptions.sides": "Cạnh",
