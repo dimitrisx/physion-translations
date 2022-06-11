@@ -126,6 +126,8 @@
 	"action.design.joint.revolute": "Revolute Joint",
 	"action.design.joint.distance": "Distance Joint",
 	"action.design.joint.mouse": "Mouse Joint",
+	"action.design.liquify": "Liquify",
+	"action.design.elastify": "Elastify",
 
 	"action.sceneControl.toggle": "Toggle Simulation",
 
@@ -160,6 +162,8 @@
 	"ReorderNodeCommand": "Reorder Node",
 	"MoveNodesCommand": "Move Nodes",
 	"MirrorNodesCommand": "Mirror Nodes",
+	"LiquifyCommand": "Liquify",
+	"ElastifyCommand": "Elastify",
 
 	"CoreObject": "Object",	
 	"CoreObject.id": "ID",
@@ -194,6 +198,7 @@
 	"Scene.subStepping": "Sub Stepping",
 	"Scene.velocityIterations": "Velocity Iterations",
 	"Scene.positionIterations": "Position Iterations",
+	"Scene.particleIterations": "Particle Iterations",
 	"Scene.followedNodeId": "Followed Node",
 	"Scene.backgroundColor": "Background Color",
 	"Scene.viewportZoom": "Viewport Zoom",
@@ -220,6 +225,7 @@
 	"BodyNode.linearVelocityX": "Linear Velocity X",
 	"BodyNode.linearVelocityY": "Linear Velocity Y",
 	"BodyNode.angularVelocity": "Angular Velocity",
+	"BodyNode.gravityScale": "Gravity Scale",
 	"BodyNode.friction": "Friction",
 	"BodyNode.restitution": "Restitution",
 	"BodyNode.density": "Density",
@@ -308,6 +314,13 @@
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Texture",
 	"SpriteNode.scale": "Scale",
+
+	"ParticleGroupNode": "Particle Group",
+	"ParticleGroupNode.internalState": "Internal State",
+
+	"LiquidNode": "Liquid Node",
+
+	"ElasticNode": "Elastic Node",
 
 	"BodyActionOptions.static": "Static",
 	"RegularPolygonActionOptions.sides": "Sides",
