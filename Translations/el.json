@@ -128,6 +128,7 @@
 	"action.design.joint.mouse": "Σύνδεσμος ποντικιού",
 	"action.design.liquify": "Υγροποίηση",
 	"action.design.elastify": "Ελαστικοποίηση",
+	"action.design.tracer": "Ιχνηλάτης",
 
 	"action.sceneControl.toggle": "Εναλλαγή Προσομοίωσης",
 
@@ -310,6 +311,13 @@
 
 	"RulerNode": "Χάρακας",
 	"RulerNode.length": "Μήκος",
+
+	"TracerNode": "Ιχνηλάτης",
+	"TracerNode.tracedNodeId": "Ιχνηλατουμενος Κόμβος",
+	"TracerNode.relativePosition": "Σχετική Θέση",
+	"TracerNode.radius": "Ακτίνα",
+	"TracerNode.maxLength": "Μέγιστο Μήκος",
+	"TracerNode.fade": "Ξεθώριασμα",
 
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Εικόνα",

@@ -128,6 +128,7 @@
 	"action.design.joint.mouse": "Mouse Joint",
 	"action.design.liquify": "Liquify",
 	"action.design.elastify": "Elastify",
+	"action.design.tracer": "Tracer",
 
 	"action.sceneControl.toggle": "Toggle Simulation",
 
@@ -310,6 +311,13 @@
 
 	"RulerNode": "Ruler",
 	"RulerNode.length": "Length",
+
+	"TracerNode": "Tracer",
+	"TracerNode.tracedNodeId": "Traced Node",
+	"TracerNode.relativePosition": "Relative Position",
+	"TracerNode.radius": "Radius",
+	"TracerNode.maxLength": "Max Length",
+	"TracerNode.fade": "Fade",
 
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Texture",
