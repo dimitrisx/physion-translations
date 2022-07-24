@@ -2,6 +2,12 @@
 	"helloWorld": "Γεια σου κόσμε!",
 	"test": "Τέστ",
 
+	"SelectionEditor.type": "Τύπος",
+	"SelectionEditor.count": "Σύνολο",
+	"SelectionEditor.checkAll": "Επιλογή όλων",
+	"SelectionEditor.uncheckAll": "Αποεπιλογή όλων",
+	"SelectionEditor.nothingSelected": "Τίποτα δεν έχει επιλεγεί",
+
 	"BitfieldEditor.labelPrefix.Bit": "Στοιχείο",
 	"BitfieldEditor.labelPrefix.Category": "Κατηγορία",
 	"BitfieldEditor.checkAll": "Επιλογή όλων",
@@ -76,7 +82,10 @@
 
 	"menu.file": "Αρχείο",
 	"menu.edit": "Επεξεργασία",
+	"menu.edit.reorder": "Reorder",
 	"menu.view": "Προβολή",
+	"menu.view.zoom": "Εστίαση",
+	"menu.view.layout": "Διάταξη",
 	"menu.help": "Βοήθεια",
 
 	"toolbar.edit": "Γραμμή εργαλείων επεξεργασίας",
@@ -105,6 +114,7 @@
 	"action.view.zoom.reset": "Επαναφορά Ζουμ",
 	"action.view.zoom.scene": "Ζουμ Σκηνής",
 	"action.view.zoom.selected": "Ζουμ Επιλεγμένων",
+	"action.view.layout.reset": "Επαναφορά Διάταξης",
 	"action.help.documentation": "Τεκμηρίωση",
 	"action.help.about": "Σχετικά με το Physion",
 	"action.help.changelog": "Ημερολόγιο Αλλαγών",
@@ -148,6 +158,8 @@
 	"widget.assetsBrowser.info": "Βρείτε και φορτώστε αρχεία.\nΜεταφέρετε και αποθέστε (drag and drop) αρχεία στην σκηνή για να φορτώσετε.",
 	"widget.settingsEditor": "Επεξεργαστής Ρυθμίσεων",
 	"widget.settingsEditor.info": "Επεξεργασία ρυθμίσεων εφαρμογής",
+	"widget.selectionEditor": "Επεξεργαστής Επιλογής",
+	"widget.selectionEditor.info": "Επεξεργασία τρέχουσας επιλογής",
 
 	"CommandEmpty": "<κενό>",
 	"AddNodeCommand": "Προσθήκη Κόμβου",

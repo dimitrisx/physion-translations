@@ -2,6 +2,12 @@
 	"helloWorld": "Hello world!",
 	"test": "Test",
 
+	"SelectionEditor.type": "Type",
+	"SelectionEditor.count": "Count",
+	"SelectionEditor.checkAll": "Check All",
+	"SelectionEditor.uncheckAll": "Uncheck All",
+	"SelectionEditor.nothingSelected": "Nothing is currently selected",
+
 	"BitfieldEditor.labelPrefix.Bit": "Bit",
 	"BitfieldEditor.labelPrefix.Category": "Category",
 	"BitfieldEditor.checkAll": "Check All",
@@ -76,7 +82,10 @@
 
 	"menu.file": "File",
 	"menu.edit": "Edit",
+	"menu.edit.reorder": "Reorder",
 	"menu.view": "View",
+	"menu.view.zoom": "Zoom",
+	"menu.view.layout": "Layout",
 	"menu.help": "Help",
 
 	"toolbar.edit": "Edit Toolbar",
@@ -105,6 +114,7 @@
 	"action.view.zoom.reset": "Reset Zoom",
 	"action.view.zoom.scene": "Zoom Scene",
 	"action.view.zoom.selected": "Zoom Selected",
+	"action.view.layout.reset": "Reset Layout",
 	"action.help.documentation": "Documentation",
 	"action.help.about": "About Physion",
 	"action.help.changelog": "Changelog",
@@ -144,10 +154,12 @@
 	"widget.commandsView.info": "Shows the list of commands executed so far",
 	"widget.sceneBrowser": "Scene Browser",
 	"widget.sceneBrowser.info": "Find and load Scenes",
-	"widget.assetsBrowser": "Assets Browser (Drag & Drop)",
+	"widget.assetsBrowser": "Assets Browser",
 	"widget.assetsBrowser.info": "Browse and load Assets.\nDrag and drop assets to the scene in order to load them.",
 	"widget.settingsEditor": "Settings Editor",
 	"widget.settingsEditor.info": "Edit application settings",
+	"widget.selectionEditor": "Selection Editor",
+	"widget.selectionEditor.info": "Edit current selection",
 
 	"CommandEmpty": "<empty>",
 	"AddNodeCommand": "Add Node",

@@ -2,6 +2,12 @@
 	"helloWorld": "Hello world!",
 	"test": "Thử nghiệm",
 
+	"SelectionEditor.type": "Type",
+	"SelectionEditor.count": "Count",
+	"SelectionEditor.checkAll": "Check All",
+	"SelectionEditor.uncheckAll": "Uncheck All",
+	"SelectionEditor.nothingSelected": "Nothing is currently selected",
+	
 	"BitfieldEditor.labelPrefix.Bit": "Bit",
 	"BitfieldEditor.labelPrefix.Category": "Category",
 	"BitfieldEditor.checkAll": "Check All",
@@ -76,7 +82,10 @@
 
 	"menu.file": "Tệp",
 	"menu.edit": "Tùy chỉnh",
+	"menu.edit.reorder": "Reorder",
 	"menu.view": "Xem",
+	"menu.view.zoom": "Zoom",
+	"menu.view.layout": "Layout",
 	"menu.help": "Trợ giúp",
 
 	"toolbar.edit": "Tùy chỉnh",
@@ -105,6 +114,7 @@
 	"action.view.zoom.reset": "Đặt lại thu phóng",
 	"action.view.zoom.scene": "Phóng toàn bộ Scene",
 	"action.view.zoom.selected": "Phóng vào Node được chọn",
+	"action.view.layout.reset": "Reset Layout",
 	"action.help.documentation": "Tài liệu",
 	"action.help.about": "Về Physion",
 	"action.help.changelog": "Changelog",
@@ -144,11 +154,13 @@
 	"widget.commandsView.info": "Xem những lệnh đã được thực hiện gần đây",
 	"widget.sceneBrowser": "Trình duyệt Scene",
 	"widget.sceneBrowser.info": "Tìm và tải Scene",
-	"widget.assetsBrowser": "Tài nguyên (Kéo và Thả)",
+	"widget.assetsBrowser": "Tài nguyên",
 	"widget.assetsBrowser.info": "Duyệt và tải tài nguyên\nKéo và thả các tài nguyên vào Scene để tải chúng.",
 	"widget.settingsEditor": "Cài đặt",
 	"widget.settingsEditor.info": "Tùy chỉnh cài đặt ứng dụng",
-
+	"widget.selectionEditor": "Selection Editor",
+	"widget.selectionEditor.info": "Edit current selection",
+	
 	"CommandEmpty": "<rỗng>",
 	"AddNodeCommand": "Thêm Node",
 	"AddNodesCommand": "Thêm nhiều Node",
@@ -320,7 +332,7 @@
 	"TracerNode.radius": "Bán kính",
 	"TracerNode.maxLength": "Chiều dài tối đa",
 	"TracerNode.fade": "Tan đi",
-
+	
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Ảnh",
 	"SpriteNode.scale": "Kích thước",
@@ -331,7 +343,7 @@
 	"LiquidNode": "Chất lỏng",
 
 	"ElasticNode": "Vật đàn hồi",
-
+	
 	"BodyActionOptions.static": "Cố định",
 	"RegularPolygonActionOptions.sides": "Cạnh",
 	"PolylineActionOptions.width": "Chiều rộng",
