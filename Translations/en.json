@@ -143,6 +143,9 @@
 	"action.sceneControl.toggle": "Toggle Simulation",
 
 	"action.snap.grid": "Snap to Grid",
+	"action.snap.centerPoints": "Snap to Center Points",
+	"action.snap.endPoints": "Snap to End Points",
+	"action.snap.midPoints": "Snap to Mid Points",
 
 	"action.boolean.union": "Union",
 	"action.boolean.difference": "Difference",
@@ -346,6 +349,8 @@
 
 	"BodyActionOptions.static": "Static",
 	"RegularPolygonActionOptions.sides": "Sides",
+	"TextActionOptions.text": "Text",
+	"TextActionOptions.resolution": "Resolution",
 	"PolylineActionOptions.width": "Width",
 	"PolylineActionOptions.joinType": "Join Type",
 	"PolylineActionOptions.endType": "End Type",

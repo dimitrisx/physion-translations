@@ -143,6 +143,9 @@
 	"action.sceneControl.toggle": "Chạy",
 
 	"action.snap.grid": "Khít vào lưới",
+	"action.snap.centerPoints": "Snap to Center Points",
+	"action.snap.endPoints": "Snap to End Points",
+	"action.snap.midPoints": "Snap to Mid Points",
 
 	"action.boolean.union": "Kết hợp",
 	"action.boolean.difference": "Trừ",
@@ -346,6 +349,8 @@
 	
 	"BodyActionOptions.static": "Cố định",
 	"RegularPolygonActionOptions.sides": "Cạnh",
+	"TextActionOptions.text": "Text",
+	"TextActionOptions.resolution": "Resolution",
 	"PolylineActionOptions.width": "Chiều rộng",
 	"PolylineActionOptions.joinType": "Join Type",
 	"PolylineActionOptions.endType": "End Type",

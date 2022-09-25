@@ -143,6 +143,9 @@
 	"action.sceneControl.toggle": "Εναλλαγή Προσομοίωσης",
 
 	"action.snap.grid": "Προσκόλληση στο πλέγμα",
+	"action.snap.centerPoints": "Προσκόλληση στα κέντρα",
+	"action.snap.endPoints": "Προσκόλληση στα τελικά σημεία",
+	"action.snap.midPoints": "Προσκόλληση στα μέσα σημεία",
 
 	"action.boolean.union": "Ένωση",
 	"action.boolean.difference": "Διαφορά",
@@ -346,6 +349,8 @@
 
 	"BodyActionOptions.static": "Στατικό",
 	"RegularPolygonActionOptions.sides": "Πλευρές",
+	"TextActionOptions.text": "Κείμενο",
+	"TextActionOptions.resolution": "Ανάλυση",
 	"PolylineActionOptions.width": "Πάχος",
 	"PolylineActionOptions.joinType": "Τύπος Σύνδεσης",
 	"PolylineActionOptions.endType": "Τύπος Άκρων",
