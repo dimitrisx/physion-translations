@@ -143,6 +143,9 @@
 	"action.sceneControl.toggle": "Alternar Simulação",
 
 	"action.snap.grid": "Ajustar à grade",
+	"action.snap.centerPoints": "Snap to Center Points",
+	"action.snap.endPoints": "Snap to End Points",
+	"action.snap.midPoints": "Snap to Mid Points",
 
 	"action.boolean.union": "União",
 	"action.boolean.difference": "Diferença",
@@ -346,6 +349,8 @@
 	
 	"BodyActionOptions.static": "Estático",
 	"RegularPolygonActionOptions.sides": "Lados",
+	"TextActionOptions.text": "Text",
+	"TextActionOptions.resolution": "Resolution",
 	"PolylineActionOptions.width": "Largura",
 	"PolylineActionOptions.joinType": "Join Type",
 	"PolylineActionOptions.endType": "End Type",
