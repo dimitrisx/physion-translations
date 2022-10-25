@@ -2,6 +2,20 @@
 	"helloWorld": "Hello world!",
 	"test": "Test",
 
+	"BodyType.static": "Static",
+	"BodyType.kinematic": "Kinematic",
+	"BodyType.dynamic": "Dynamic",
+	
+	"PolylineJoinType.Square": "Square",
+	"PolylineJoinType.Round": "Round",
+
+	"PolylineEndType.Square": "Square",
+	"PolylineEndType.Round": "Round",
+	"PolylineEndType.Butt": "Butt",
+
+	"RopeSegmentType.Rectangle": "Rectangle",
+	"RopeSegmentType.Circle": "Circle",
+
 	"SelectionEditor.type": "Type",
 	"SelectionEditor.count": "Count",
 	"SelectionEditor.checkAll": "Check All",
@@ -240,6 +254,7 @@
 	"BodyNode.fixedRotation": "Fixed Rotation",
 	"BodyNode.linearVelocityX": "Linear Velocity X",
 	"BodyNode.linearVelocityY": "Linear Velocity Y",
+	"BodyNode.linearVelocity": "Linear Velocity",
 	"BodyNode.linearDamping": "Linear Damping",
 	"BodyNode.angularVelocity": "Angular Velocity",
 	"BodyNode.angularDamping": "Angular Damping",

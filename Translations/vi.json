@@ -2,6 +2,20 @@
 	"helloWorld": "Hello world!",
 	"test": "Thử nghiệm",
 
+	"BodyType.static": "Static",
+	"BodyType.kinematic": "Kinematic",
+	"BodyType.dynamic": "Dynamic",
+
+	"PolylineJoinType.Square": "Square",
+	"PolylineJoinType.Round": "Round",
+
+	"PolylineEndType.Square": "Square",
+	"PolylineEndType.Round": "Round",
+	"PolylineEndType.Butt": "Butt",
+	
+	"RopeSegmentType.Rectangle": "Rectangle",
+	"RopeSegmentType.Circle": "Circle",
+
 	"SelectionEditor.type": "Loại",
 	"SelectionEditor.count": "Số lượng",
 	"SelectionEditor.checkAll": "Chọn tất cả",
@@ -240,6 +254,7 @@
 	"BodyNode.fixedRotation": "Khóa góc xoay",
 	"BodyNode.linearVelocityX": "Vận tốc X",
 	"BodyNode.linearVelocityY": "Vận tốc Y",
+	"BodyNode.linearVelocity": "Linear Velocity",
 	"BodyNode.linearDamping": "Linear Damping",
 	"BodyNode.angularVelocity": "Vận tốc góc",
 	"BodyNode.angularDamping": "Angular Damping",

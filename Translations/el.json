@@ -2,6 +2,20 @@
 	"helloWorld": "Γεια σου κόσμε!",
 	"test": "Τέστ",
 
+	"BodyType.static": "Στατικό",
+	"BodyType.kinematic": "Κινηματικό",
+	"BodyType.dynamic": "Δυναμικό",
+
+	"PolylineJoinType.Square": "Τετράγωνο",
+	"PolylineJoinType.Round": "Κυκλικό",
+
+	"PolylineEndType.Square": "Τετράγωνο",
+	"PolylineEndType.Round": "Κυκλικό",
+	"PolylineEndType.Butt": "Άκρα",
+
+	"RopeSegmentType.Rectangle": "Παραλληλόγραμμο",
+	"RopeSegmentType.Circle": "Κύκλος",
+
 	"SelectionEditor.type": "Τύπος",
 	"SelectionEditor.count": "Σύνολο",
 	"SelectionEditor.checkAll": "Επιλογή όλων",
@@ -240,6 +254,7 @@
 	"BodyNode.fixedRotation": "Σταθερή Περιστροφή",
 	"BodyNode.linearVelocityX": "Γραμμική Ταχύτητα X",
 	"BodyNode.linearVelocityY": "Γραμμική Ταχύτητα Y",
+	"BodyNode.linearVelocity": "Γραμμική Ταχύτητα",
 	"BodyNode.linearDamping": "Γραμμική Απόσβεση",
 	"BodyNode.angularVelocity": "Γωνιακή Ταχύτητα",
 	"BodyNode.angularDamping": "Γωνιακή Απόσβεση",
