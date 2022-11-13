@@ -27,6 +27,14 @@
 	"BitfieldEditor.checkAll": "Chọn tất cả",
 	"BitfieldEditor.uncheckAll": "Bỏ chọn tất cả",
 
+	"UserInfoDialog.title": "User Information",
+
+	"UserInfo.aboutMe": "About Me",
+	"UserInfo.memberSince": "Member Since",
+
+	"GraphPane.selectButton": "Select Graph",
+	"GraphPane.closeButton": "Close (delete) Graph",
+
 	"sceneBrowser.featuredScenes": "Nổi bật",
 	"sceneBrowser.publicScenes": "Scene công khai",
 	"sceneBrowser.myScenes": "Scene của tôi",
@@ -94,6 +102,9 @@
 	"settings.general.language": "Ngôn ngữ",
 	"settings.general.theme": "Chủ đề",
 
+	"profile.avatarUrl": "Avatar URL",
+	"profile.aboutMe": "About Me",
+
 	"menu.file": "Tệp",
 	"menu.edit": "Tùy chỉnh",
 	"menu.edit.reorder": "Sắp xếp lại",
@@ -153,6 +164,7 @@
 	"action.design.liquify": "Hóa lỏng",
 	"action.design.elastify": "Đàn hồi hóa",
 	"action.design.tracer": "Bút",
+	"action.design.graph": "Create Graph",
 
 	"action.sceneControl.toggle": "Chạy",
 
@@ -194,6 +206,7 @@
 	"MirrorNodesCommand": "Lật",
 	"LiquifyCommand": "Hóa lỏng",
 	"ElastifyCommand": "Đàn hồi hóa",
+	"MultiPropertyChangeCommand": "Change Multiple Properties",
 
 	"CoreObject": "Object",	
 	"CoreObject.id": "ID",
@@ -361,6 +374,18 @@
 	"LiquidNode": "Chất lỏng",
 
 	"ElasticNode": "Vật đàn hồi",
+	
+	"GraphNode": "Graph",
+	"GraphNode.bodyNodeId": "Body",
+	"GraphNode.property": "Property",
+	"GraphNode.paneX": "Pane X",
+	"GraphNode.paneY": "Pane Y",
+	"GraphNode.paneWidth": "Pane Width",
+	"GraphNode.paneHeight": "Pane Height",
+	"GraphNode.backgroundColor": "Background Color",
+	"GraphNode.backgroundAlpha": "Background Alpha",
+	"GraphNode.lineColor": "Line Color",
+	"GraphNode.showGrid": "Show Grid",
 	
 	"BodyActionOptions.static": "Cố định",
 	"RegularPolygonActionOptions.sides": "Cạnh",

@@ -27,6 +27,14 @@
 	"BitfieldEditor.checkAll": "Check All",
 	"BitfieldEditor.uncheckAll": "Uncheck All",
 
+	"UserInfoDialog.title": "User Information",
+
+	"UserInfo.aboutMe": "About Me",
+	"UserInfo.memberSince": "Member Since",
+
+	"GraphPane.selectButton": "Select Graph",
+	"GraphPane.closeButton": "Close (delete) Graph",
+
 	"sceneBrowser.featuredScenes": "Featured Scenes",
 	"sceneBrowser.publicScenes": "Cenas Públicas",
 	"sceneBrowser.myScenes": "Minhas cenas",
@@ -94,6 +102,9 @@
 	"settings.general.language": "Idioma",
 	"settings.general.theme": "Tema",
 
+	"profile.avatarUrl": "Avatar URL",
+	"profile.aboutMe": "About Me",
+
 	"menu.file": "Arquivo",
 	"menu.edit": "Editar",
 	"menu.edit.reorder": "Reorder",
@@ -146,13 +157,14 @@
 	"action.design.spiral": "Create Spiral",
 	"action.design.gear": "Create Gear",
 	"action.design.rope": "Create Rope",
-	"action.design.joint.weld": "Weld Joint",
+	"action.design.joint.weld": "Create Weld Joint",
 	"action.design.joint.revolute": "Revoluir Articulação",
 	"action.design.joint.distance": "Junta de distância",
 	"action.design.joint.mouse": "Articulação do Mouse",
 	"action.design.liquify": "Liquify",
 	"action.design.elastify": "Elastify",
-	"action.design.tracer": "Tracer",
+	"action.design.tracer": "Create Tracer",
+	"action.design.graph": "Create Graph",
 
 	"action.sceneControl.toggle": "Alternar Simulação",
 
@@ -194,6 +206,7 @@
 	"MirrorNodesCommand": "Mirror Nodes",
 	"LiquifyCommand": "Liquify",
 	"ElastifyCommand": "Elastify",
+	"MultiPropertyChangeCommand": "Change Multiple Properties",
 
 	"CoreObject": "Objeto",	
 	"CoreObject.id": "ID",
@@ -361,6 +374,18 @@
 	"LiquidNode": "Liquid Node",
 
 	"ElasticNode": "Elastic Node",
+	
+	"GraphNode": "Graph",
+	"GraphNode.bodyNodeId": "Body",
+	"GraphNode.property": "Property",
+	"GraphNode.paneX": "Pane X",
+	"GraphNode.paneY": "Pane Y",
+	"GraphNode.paneWidth": "Pane Width",
+	"GraphNode.paneHeight": "Pane Height",
+	"GraphNode.backgroundColor": "Background Color",
+	"GraphNode.backgroundAlpha": "Background Alpha",
+	"GraphNode.lineColor": "Line Color",
+	"GraphNode.showGrid": "Show Grid",
 	
 	"BodyActionOptions.static": "Estático",
 	"RegularPolygonActionOptions.sides": "Lados",
