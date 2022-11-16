@@ -6,15 +6,15 @@
 	"BodyType.kinematic": "Kinematic",
 	"BodyType.dynamic": "Dynamic",
 
-	"PolylineJoinType.Square": "Square",
-	"PolylineJoinType.Round": "Round",
+	"PolylineJoinType.Square": "Vuông",
+	"PolylineJoinType.Round": "Tròn",
 
-	"PolylineEndType.Square": "Square",
-	"PolylineEndType.Round": "Round",
+	"PolylineEndType.Square": "Vuông",
+	"PolylineEndType.Round": "Tròn",
 	"PolylineEndType.Butt": "Butt",
 	
-	"RopeSegmentType.Rectangle": "Rectangle",
-	"RopeSegmentType.Circle": "Circle",
+	"RopeSegmentType.Rectangle": "Hình chữ nhật",
+	"RopeSegmentType.Circle": "Hình tròn",
 
 	"SelectionEditor.type": "Loại",
 	"SelectionEditor.count": "Số lượng",
@@ -27,13 +27,13 @@
 	"BitfieldEditor.checkAll": "Chọn tất cả",
 	"BitfieldEditor.uncheckAll": "Bỏ chọn tất cả",
 
-	"UserInfoDialog.title": "User Information",
+	"UserInfoDialog.title": "Thông tin người dùng",
 
-	"UserInfo.aboutMe": "About Me",
-	"UserInfo.memberSince": "Member Since",
+	"UserInfo.aboutMe": "Về tôi",
+	"UserInfo.memberSince": "Tham gia từ",
 
-	"GraphPane.selectButton": "Select Graph",
-	"GraphPane.closeButton": "Close (delete) Graph",
+	"GraphPane.selectButton": "Chọn Đồ thị",
+	"GraphPane.closeButton": "Đóng (xóa) Đồ thị",
 
 	"sceneBrowser.featuredScenes": "Nổi bật",
 	"sceneBrowser.publicScenes": "Scene công khai",
@@ -102,8 +102,8 @@
 	"settings.general.language": "Ngôn ngữ",
 	"settings.general.theme": "Chủ đề",
 
-	"profile.avatarUrl": "Avatar URL",
-	"profile.aboutMe": "About Me",
+	"profile.avatarUrl": "Link Avatar",
+	"profile.aboutMe": "Về tôi",
 
 	"menu.file": "Tệp",
 	"menu.edit": "Tùy chỉnh",
@@ -164,7 +164,7 @@
 	"action.design.liquify": "Hóa lỏng",
 	"action.design.elastify": "Đàn hồi hóa",
 	"action.design.tracer": "Bút",
-	"action.design.graph": "Create Graph",
+	"action.design.graph": "Tạo đồ thị",
 
 	"action.sceneControl.toggle": "Chạy",
 
@@ -206,7 +206,7 @@
 	"MirrorNodesCommand": "Lật",
 	"LiquifyCommand": "Hóa lỏng",
 	"ElastifyCommand": "Đàn hồi hóa",
-	"MultiPropertyChangeCommand": "Change Multiple Properties",
+	"MultiPropertyChangeCommand": "Thay đổi nhiều thuộc tính",
 
 	"CoreObject": "Object",	
 	"CoreObject.id": "ID",
@@ -267,7 +267,7 @@
 	"BodyNode.fixedRotation": "Khóa góc xoay",
 	"BodyNode.linearVelocityX": "Vận tốc X",
 	"BodyNode.linearVelocityY": "Vận tốc Y",
-	"BodyNode.linearVelocity": "Linear Velocity",
+	"BodyNode.linearVelocity": "Tốc độ",
 	"BodyNode.linearDamping": "Linear Damping",
 	"BodyNode.angularVelocity": "Vận tốc góc",
 	"BodyNode.angularDamping": "Angular Damping",
@@ -362,7 +362,7 @@
 	"TracerNode.relativePosition": "Vị trí tương đối",
 	"TracerNode.radius": "Bán kính",
 	"TracerNode.maxLength": "Chiều dài tối đa",
-	"TracerNode.fade": "Tan đi",
+	"TracerNode.fade": "Mờ đi",
 	
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Ảnh",
@@ -375,17 +375,17 @@
 
 	"ElasticNode": "Vật đàn hồi",
 	
-	"GraphNode": "Graph",
+	"GraphNode": "Đồ thị",
 	"GraphNode.bodyNodeId": "Body",
-	"GraphNode.property": "Property",
-	"GraphNode.paneX": "Pane X",
-	"GraphNode.paneY": "Pane Y",
-	"GraphNode.paneWidth": "Pane Width",
-	"GraphNode.paneHeight": "Pane Height",
-	"GraphNode.backgroundColor": "Background Color",
-	"GraphNode.backgroundAlpha": "Background Alpha",
-	"GraphNode.lineColor": "Line Color",
-	"GraphNode.showGrid": "Show Grid",
+	"GraphNode.property": "Thuộc tính",
+	"GraphNode.paneX": "Vị trí bảng X",
+	"GraphNode.paneY": "Vị trí bảng Y",
+	"GraphNode.paneWidth": "Chiều rộng bảng",
+	"GraphNode.paneHeight": "Chiều cao bảng",
+	"GraphNode.backgroundColor": "Màu nền",
+	"GraphNode.backgroundAlpha": "Độ trong suốt nền",
+	"GraphNode.lineColor": "Màu đường đồ thị",
+	"GraphNode.showGrid": "Hiện lưới",
 	
 	"BodyActionOptions.static": "Cố định",
 	"RegularPolygonActionOptions.sides": "Cạnh",
