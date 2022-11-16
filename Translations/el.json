@@ -2,6 +2,20 @@
 	"helloWorld": "Γεια σου κόσμε!",
 	"test": "Τέστ",
 
+	"BodyType.static": "Στατικό",
+	"BodyType.kinematic": "Κινηματικό",
+	"BodyType.dynamic": "Δυναμικό",
+
+	"PolylineJoinType.Square": "Τετράγωνο",
+	"PolylineJoinType.Round": "Κυκλικό",
+
+	"PolylineEndType.Square": "Τετράγωνο",
+	"PolylineEndType.Round": "Κυκλικό",
+	"PolylineEndType.Butt": "Άκρα",
+
+	"RopeSegmentType.Rectangle": "Παραλληλόγραμμο",
+	"RopeSegmentType.Circle": "Κύκλος",
+
 	"SelectionEditor.type": "Τύπος",
 	"SelectionEditor.count": "Σύνολο",
 	"SelectionEditor.checkAll": "Επιλογή όλων",
@@ -12,6 +26,14 @@
 	"BitfieldEditor.labelPrefix.Category": "Κατηγορία",
 	"BitfieldEditor.checkAll": "Επιλογή όλων",
 	"BitfieldEditor.uncheckAll": "Αποεπιλογή όλων",
+
+	"UserInfoDialog.title": "Πληροφορίες Χρήστη",
+
+	"UserInfo.aboutMe": "Σχετικά με εμένα",
+	"UserInfo.memberSince": "Μέλος από",
+
+	"GraphPane.selectButton": "Επιλογή Γραφήματος",
+	"GraphPane.closeButton": "Κλείσιμο (διαγραφή) Γραφήματος",
 
 	"sceneBrowser.featuredScenes": "Επιλεγμένες Σκηνές",
 	"sceneBrowser.publicScenes": "Δημόσιες Σκηνές",
@@ -80,6 +102,9 @@
 	"settings.general.language": "Γλώσσα",
 	"settings.general.theme": "Θέμα",
 
+	"profile.avatarUrl": "Avatar URL",
+	"profile.aboutMe": "Σχετικά με εμένα",
+
 	"menu.file": "Αρχείο",
 	"menu.edit": "Επεξεργασία",
 	"menu.edit.reorder": "Reorder",
@@ -132,13 +157,14 @@
 	"action.design.spiral": "Δημιουργία Σπιράλ",
 	"action.design.gear": "Δημιουργία Γραναζιού",
 	"action.design.rope": "Δημιουργία Σχοινιού",
-	"action.design.joint.weld": "Σύνδεσμος συγκόλλησης",
-	"action.design.joint.revolute": "Σύνδεσμος περιστροφής",
-	"action.design.joint.distance": "Σύνδεσμος απόστασης",
-	"action.design.joint.mouse": "Σύνδεσμος ποντικιού",
+	"action.design.joint.weld": "Δημιουργία Συνδέσμου Συγκόλλησης",
+	"action.design.joint.revolute": "Δημιουργία Συνδέσμου Περιστροφής",
+	"action.design.joint.distance": "Δημιουργία Συνδέσμου Απόστασης",
+	"action.design.joint.mouse": "Δημιουργία Συνδέσμου Ποντικιού",
 	"action.design.liquify": "Υγροποίηση",
 	"action.design.elastify": "Ελαστικοποίηση",
-	"action.design.tracer": "Ιχνηλάτης",
+	"action.design.tracer": "Δημιουργία Ιχνηλάτη",
+	"action.design.graph": "Δημιουργία Γραφήματος",
 
 	"action.sceneControl.toggle": "Εναλλαγή Προσομοίωσης",
 
@@ -180,6 +206,7 @@
 	"MirrorNodesCommand": "Αντιστροφή Κόμβων",
 	"LiquifyCommand": "Υγροποίηση",
 	"ElastifyCommand": "Ελαστικοποίηση",
+	"MultiPropertyChangeCommand": "Αλλαγή Πολλαπλών Ιδιοτήτων",
 
 	"CoreObject": "Αντικείμενο",
 	"CoreObject.id": "Ταυτότητα",
@@ -240,6 +267,7 @@
 	"BodyNode.fixedRotation": "Σταθερή Περιστροφή",
 	"BodyNode.linearVelocityX": "Γραμμική Ταχύτητα X",
 	"BodyNode.linearVelocityY": "Γραμμική Ταχύτητα Y",
+	"BodyNode.linearVelocity": "Γραμμική Ταχύτητα",
 	"BodyNode.linearDamping": "Γραμμική Απόσβεση",
 	"BodyNode.angularVelocity": "Γωνιακή Ταχύτητα",
 	"BodyNode.angularDamping": "Γωνιακή Απόσβεση",
@@ -346,6 +374,18 @@
 	"LiquidNode": "Liquid Node",
 	
 	"ElasticNode": "Elastic Node",
+
+	"GraphNode": "Γράφημα",
+	"GraphNode.bodyNodeId": "Σώμα",
+	"GraphNode.property": "Ιδιότητα",
+	"GraphNode.paneX": "Θέση X Παραθύρου",
+	"GraphNode.paneY": "Θέση Y Παραθύρου",
+	"GraphNode.paneWidth": "Πλάτος Παραθύρου",
+	"GraphNode.paneHeight": "Ύψος Παραθύρου",
+	"GraphNode.backgroundColor": "Χρώμα Φόντου",
+	"GraphNode.backgroundAlpha": "Διαφάνεια Φόντου",
+	"GraphNode.lineColor": "Χρώμα Γραμμής",
+	"GraphNode.showGrid": "Εμφάνιση Πλέγματος",
 
 	"BodyActionOptions.static": "Στατικό",
 	"RegularPolygonActionOptions.sides": "Πλευρές",
