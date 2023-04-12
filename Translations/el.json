@@ -161,9 +161,11 @@
 	"action.design.joint.revolute": "Δημιουργία Συνδέσμου Περιστροφής",
 	"action.design.joint.distance": "Δημιουργία Συνδέσμου Απόστασης",
 	"action.design.joint.mouse": "Δημιουργία Συνδέσμου Ποντικιού",
+	"action.design.spring": "Δημιουργία Ελατηρίου",
 	"action.design.liquify": "Υγροποίηση",
 	"action.design.elastify": "Ελαστικοποίηση",
 	"action.design.tracer": "Δημιουργία Ιχνηλάτη",
+	"action.design.particleEmitter": "Particle Emitter",
 	"action.design.graph": "Δημιουργία Γραφήματος",
 
 	"action.sceneControl.toggle": "Εναλλαγή Προσομοίωσης",
@@ -354,6 +356,16 @@
 	"DistanceJointNode.frequencyHz": "Συχνότητα Hz",
 	"DistanceJointNode.dampingRatio": "Απόσβεση",
 
+	"SpringNode": "Ελατήριο",
+	"SpringNode.bodyNodeAid": "Σώμα A",
+	"SpringNode.bodyNodeBid": "Σώμα B",
+	"SpringNode.anchorA": "Σημείο A",
+	"SpringNode.anchorB": "Σημείο B",
+	"SpringNode.length": "Μήκος",
+	"SpringNode.k": "Σταθερά k",
+	"SpringNode.damping": "Απόσβεση",
+	"SpringNode.width": "Πλάτος",
+
 	"RulerNode": "Χάρακας",
 	"RulerNode.length": "Μήκος",
 
@@ -364,12 +376,42 @@
 	"TracerNode.maxLength": "Μέγιστο Μήκος",
 	"TracerNode.fade": "Ξεθώριασμα",
 
+	"ParticleEmitterNode": "Particle Emitter",
+	"ParticleEmitterNode.tracedNodeId": "Traced Node",
+	"ParticleEmitterNode.particleTexture": "Particle Texture",
+	"ParticleEmitterNode.relativePosition": "Relative Position",
+	"ParticleEmitterNode.alphaStart": "Alpha Start",
+	"ParticleEmitterNode.alphaEnd": "Alpha End",
+	"ParticleEmitterNode.speedStart": "Speed Start",
+	"ParticleEmitterNode.speedEnd": "Speed End",
+	"ParticleEmitterNode.scaleStart": "Scale Start",
+	"ParticleEmitterNode.scaleEnd": "Scale End",
+	"ParticleEmitterNode.colorStart": "Color Start",
+	"ParticleEmitterNode.colorEnd": "Color End",
+	"ParticleEmitterNode.startRotationMin": "Start Rotation Min",
+	"ParticleEmitterNode.startRotationMax": "Start Rotation Max",
+	"ParticleEmitterNode.noRotation": "No Rotation",
+	"ParticleEmitterNode.rotationSpeedMin": "Rotation Speed Min",
+	"ParticleEmitterNode.rotationSpeedMax": "Rotation Speed Max",
+	"ParticleEmitterNode.blendMode": "Blend Mode",
+	"ParticleEmitterNode.lifetimeMin": "Lifetime Min",
+	"ParticleEmitterNode.lifetimeMax": "Lifetime Max",
+	"ParticleEmitterNode.frequency": "Frequency",
+	"ParticleEmitterNode.emitterLifetime": "Emitter Lifetime",
+	"ParticleEmitterNode.maxParticles": "Max Particles",
+	"ParticleEmitterNode.spawnType": "Spawn Type",
+	"ParticleEmitterNode.pos": "Pos",
+	"ParticleEmitterNode.spawnCircle": "Spawn Circle",
+	"ParticleEmitterNode.spawnRect": "Spawn Rect",
+
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Εικόνα",
 	"SpriteNode.scale": "Κλίμακα",
 
 	"ParticleGroupNode": "Particle Group",
 	"ParticleGroupNode.internalState": "Internal State",
+	"ParticleGroupNode.spriteScale": "Sprite Scale",
+	"ParticleGroupNode.spriteBlendMode": "Sprite Blend Mode",
 	
 	"LiquidNode": "Liquid Node",
 	
@@ -403,5 +445,6 @@
 	"RopeActionOptions.segmentType": "Τύπος Τμήματος",
 	"RopeActionOptions.segmentSize": "Μέγεθος Τμήματος",
 	"RopeActionOptions.attachStart": "Σύνδεση Αρχής",
-	"RopeActionOptions.attachEnd": "Σύνδεση Τέλους"
+	"RopeActionOptions.attachEnd": "Σύνδεση Τέλους",
+	"ParticleEmitterActionOptions.preset": "Preset"
 }

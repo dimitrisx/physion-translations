@@ -161,9 +161,11 @@
 	"action.design.joint.revolute": "Tạo trục quay",
 	"action.design.joint.distance": "Tạo liên kết từ xa",
 	"action.design.joint.mouse": "Kéo chuột",
+	"action.design.spring": "Create Spring",
 	"action.design.liquify": "Hóa lỏng",
 	"action.design.elastify": "Đàn hồi hóa",
 	"action.design.tracer": "Bút",
+	"action.design.particleEmitter": "Particle Emitter",
 	"action.design.graph": "Tạo đồ thị",
 
 	"action.sceneControl.toggle": "Chạy",
@@ -172,7 +174,7 @@
 	"action.snap.centerPoints": "Khít vào tâm",
 	"action.snap.endPoints": "Khít vào điểm cuối",
 	"action.snap.midPoints": "Khít vào điểm giữa",
-
+	
 	"action.boolean.union": "Kết hợp",
 	"action.boolean.difference": "Trừ",
 	"action.boolean.intersection": "Giao",
@@ -354,6 +356,16 @@
 	"DistanceJointNode.frequencyHz": "Tần số Hz",
 	"DistanceJointNode.dampingRatio": "Tỷ lệ giảm xóc",
 
+	"SpringNode": "Spring Node",
+	"SpringNode.bodyNodeAid": "Body A",
+	"SpringNode.bodyNodeBid": "Body B",
+	"SpringNode.anchorA": "Anchor A",
+	"SpringNode.anchorB": "Anchor B",
+	"SpringNode.length": "Length",
+	"SpringNode.k": "k",
+	"SpringNode.damping": "Damping",
+	"SpringNode.width": "Width",
+	
 	"RulerNode": "Thước",
 	"RulerNode.length": "Độ dài",
 
@@ -363,14 +375,44 @@
 	"TracerNode.radius": "Bán kính",
 	"TracerNode.maxLength": "Chiều dài tối đa",
 	"TracerNode.fade": "Mờ đi",
-	
+
+	"ParticleEmitterNode": "Particle Emitter",
+	"ParticleEmitterNode.tracedNodeId": "Traced Node",
+	"ParticleEmitterNode.particleTexture": "Particle Texture",
+	"ParticleEmitterNode.relativePosition": "Relative Position",
+	"ParticleEmitterNode.alphaStart": "Alpha Start",
+	"ParticleEmitterNode.alphaEnd": "Alpha End",
+	"ParticleEmitterNode.speedStart": "Speed Start",
+	"ParticleEmitterNode.speedEnd": "Speed End",
+	"ParticleEmitterNode.scaleStart": "Scale Start",
+	"ParticleEmitterNode.scaleEnd": "Scale End",
+	"ParticleEmitterNode.colorStart": "Color Start",
+	"ParticleEmitterNode.colorEnd": "Color End",
+	"ParticleEmitterNode.startRotationMin": "Start Rotation Min",
+	"ParticleEmitterNode.startRotationMax": "Start Rotation Max",
+	"ParticleEmitterNode.noRotation": "No Rotation",
+	"ParticleEmitterNode.rotationSpeedMin": "Rotation Speed Min",
+	"ParticleEmitterNode.rotationSpeedMax": "Rotation Speed Max",
+	"ParticleEmitterNode.blendMode": "Blend Mode",
+	"ParticleEmitterNode.lifetimeMin": "Lifetime Min",
+	"ParticleEmitterNode.lifetimeMax": "Lifetime Max",
+	"ParticleEmitterNode.frequency": "Frequency",
+	"ParticleEmitterNode.emitterLifetime": "Emitter Lifetime",
+	"ParticleEmitterNode.maxParticles": "Max Particles",
+	"ParticleEmitterNode.spawnType": "Spawn Type",
+	"ParticleEmitterNode.pos": "Pos",
+	"ParticleEmitterNode.spawnCircle": "Spawn Circle",
+	"ParticleEmitterNode.spawnRect": "Spawn Rect",
+		
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Ảnh",
 	"SpriteNode.scale": "Kích thước",
 
 	"ParticleGroupNode": "Nhóm hạt",
 	"ParticleGroupNode.internalState": "Trạng thái",
-	
+	"ParticleGroupNode.spriteScale": "Sprite Scale",
+	"ParticleGroupNode.spriteBlendMode": "Sprite Blend Mode",
+		
 	"LiquidNode": "Chất lỏng",
 
 	"ElasticNode": "Vật đàn hồi",
@@ -386,7 +428,7 @@
 	"GraphNode.backgroundAlpha": "Độ trong suốt nền",
 	"GraphNode.lineColor": "Màu đường đồ thị",
 	"GraphNode.showGrid": "Hiện lưới",
-	
+
 	"BodyActionOptions.static": "Cố định",
 	"RegularPolygonActionOptions.sides": "Cạnh",
 	"TextActionOptions.text": "Văn bản",
@@ -403,5 +445,6 @@
 	"RopeActionOptions.segmentType": "Segment Type",
 	"RopeActionOptions.segmentSize": "Segment Size",
 	"RopeActionOptions.attachStart": "Gắn điểm đầu",
-	"RopeActionOptions.attachEnd": "Gắn điểm cuối"
+	"RopeActionOptions.attachEnd": "Gắn điểm cuối",
+	"ParticleEmitterActionOptions.preset": "Preset"
 }
