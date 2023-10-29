@@ -2,6 +2,9 @@
 	"helloWorld": "Γεια σου κόσμε!",
 	"test": "Τέστ",
 
+	"Orientation.Horizontal": "Οριζόντιος",
+	"Orientation.Vertical": "Κατακόρυφος",
+
 	"BodyType.static": "Στατικό",
 	"BodyType.kinematic": "Κινηματικό",
 	"BodyType.dynamic": "Δυναμικό",
@@ -32,6 +35,11 @@
 	"UserInfo.aboutMe": "Σχετικά με εμένα",
 	"UserInfo.memberSince": "Μέλος από",
 
+	"SceneInfoDialog.title": "Πληροφορίες Σκηνής",
+
+	"SceneRating.pleaseLoginToRateThisScene": "Παρακαλώ συνδεθείτε για να βαθμολογήσετε αυτή τη Σκηνή",
+	"SceneRating.cannotRateYourOwnScene": "Δεν μπορείτε να βαθμολογήσετε τη Σκηνή σας",
+
 	"GraphPane.selectButton": "Επιλογή Γραφήματος",
 	"GraphPane.closeButton": "Κλείσιμο (διαγραφή) Γραφήματος",
 
@@ -39,14 +47,24 @@
 	"sceneBrowser.publicScenes": "Δημόσιες Σκηνές",
 	"sceneBrowser.myScenes": "Οι Σκηνές μου",
 	"sceneBrowser.noScenesAvailable": "Δεν υπάρχουν διαθέσιμες σκηνές",
+	"sceneBrowser.search": "Αναζήτηση...",
 
 	"propertyEditorWidget.nothingSelected": "Τίποτα δεν έχει επιλεγεί",
 	"propertyEditorWidget.selectScene": "Επιλογή Σκηνής",
 
 	"scriptExecutionDialog.title": "Εκτέλεση Script",
+	"scriptExecutionDialog.scriptParameters": "Παράμετροι Script",
 	"scriptExecutionDialog.execute": "Εκτέλεση",
 
 	"assetsLibraryDialog.title": "Βιβλιοθήκη Πηγών",
+
+	"toolActionDialog.initializing": "Αρχικοποίηση",
+	"toolActionDialog.initializationFailed": "Η αρχικοποίηση απέτυχε",
+	"toolActionDialog.toolDescription": "Περιγραφή Εργαλείου",
+	"toolActionDialog.toolParameters": "Παράμετροι Εργαλείου",
+	"toolActionDialog.errors": "Σφάλματα",
+	"toolActionDialog.noErrors": "Δεν υπάρχουν σφάλματα",
+	"toolActionDialog.execute": "Εκτέλεση",
 
 	"assetsSelector.noAssetsAvailable": "Δεν υπάρχουν διαθέσιμα αρχεία",
 
@@ -73,6 +91,7 @@
 	"logout": "Αποσύνδεση",
 
 	"continueWithFacebook": "Συνεχίστε με το Facebook",
+	"continueWithGoogle": "Συνεχίστε με την Google",
 
 	"save": "Αποθήκευση",
 	"saveSuccess": "Επιτυχής αποθήκευση",
@@ -88,6 +107,7 @@
 	"deleteFailure": "Αποτυχία διαγραφής",
 
 	"start": "Έναρξη",
+	"info": "Πληροφορίες",
 	"edit": "Επεξεργασία",
 	"apply": "Εφαρμογή",
 
@@ -111,6 +131,7 @@
 	"menu.view": "Προβολή",
 	"menu.view.zoom": "Εστίαση",
 	"menu.view.layout": "Διάταξη",
+	"menu.tools": "Εργαλεία",
 	"menu.help": "Βοήθεια",
 
 	"toolbar.edit": "Γραμμή εργαλείων επεξεργασίας",
@@ -144,7 +165,9 @@
 	"action.help.about": "Σχετικά με το Physion",
 	"action.help.changelog": "Ημερολόγιο Αλλαγών",
 	"action.help.social": "Μέσα Κοινωνικής Δικτύωσης",
-
+	"action.help.privacyPolicy": "Privacy Policy",
+	"action.help.termsOfService": "Terms of Service",
+	
 	"action.design.select": "Εργαλείο Επιλογής",
 	"action.design.move": "Εργαλείο Μετακίνησης",
 	"action.design.mirror": "Εργαλείο Αντιστροφής",
@@ -167,6 +190,30 @@
 	"action.design.tracer": "Δημιουργία Ιχνηλάτη",
 	"action.design.particleEmitter": "Particle Emitter",
 	"action.design.graph": "Δημιουργία Γραφήματος",
+
+	"action.tools.rectangularArray": "Ορθογώνιος Πίνακας",
+	"action.tools.rectangularArray.description": "Δημιουργεί πολλαπλά αντίγραφα των επιλεγμένων αντικειμένων διατεταγμένα σε ορθογώνιο μοτίβο.",
+	"action.tools.rectangularArray.errors.rowsNotPositiveInteger": "Οι Σειρές δεν είναι θετικός ακέραιος.",
+	"action.tools.rectangularArray.errors.columnsNotPositiveInteger": "Οι Στήλες δεν είναι θετικός ακέραιος.",
+	"action.tools.rectangularArray.errors.rowsAndColumnsBoth1": "Οι Σειρές και οι Στήλες δεν μπορούν να είναι και οι δύο 1.",
+	
+	"action.tools.gradient.linear": "Γραμμική Διαβάθμιση",
+	"action.tools.gradient.linear.description": "Εφαρμόζει μια γραμμική διαβάθμιση στα επιλεγμένα αντικείμενα.",
+	"action.tools.gradient.linear.errors.invalidColor": "Το \"{color}\" είναι ένα μη έγκυρο χρώμα.",
+	"action.tools.gradient.linear.errors.atLeastTwoColorsRequired": "Απαιτούνται τουλάχιστον δύο χρώματα.",
+	"action.tools.gradient.linear.errors.invalidOrientation": "Μη έγκυρος προσανατολισμός.",
+	
+	"action.tools.gradient.radial": "Ακτινική Διαβάθμιση",
+	"action.tools.gradient.radial.description": "Εφαρμόζει μια ακτινική διαβάθμιση στα επιλεγμένα αντικείμενα.",
+	"action.tools.gradient.radial.errors.invalidColor": "Το \"{color}\" είναι ένα μη έγκυρο χρώμα.",
+	"action.tools.gradient.radial.errors.atLeastTwoColorsRequired": "Απαιτούνται τουλάχιστον δύο χρώματα.",
+
+	"action.tools.maze": "Λαβύρινθος",
+	"action.tools.maze.description": "Δημιουργεί έναν τυχαίο ορθογώνιο λαβύρινθο με βάση τις δεδομένες παραμέτρους. Οι διαστάσεις του λαβύρινθου ορίζονται από το 'Μέγεθος X' και το 'Μέγεθος Υ'. Το μέγεθος κάθε κελιού καθορίζεται από το 'Μέγεθος Κελιού' ενώ το πάχος τοιχώματος καθορίζεται από την παράμετρο 'Πάχος Τοιχώματος'.",
+	"action.tools.maze.errors.xSizeNotPositiveInteger": "Το 'Μέγεθος X' δεν είναι θετικός ακέραιος.",
+	"action.tools.maze.errors.ySizeNotPositiveInteger": "Το 'Μέγεθος Y' δεν είναι θετικός ακέραιος.",
+	"action.tools.maze.errors.cellSizeNotPositive": "Το 'Μέγεθος Κελιού' δεν είναι θετικός αριθμός.",
+	"action.tools.maze.errors.wallThicknessNotPositive": "Το 'Πάχος Τοιχώματος' δεν είναι θετικός αριθμός.",
 
 	"action.sceneControl.toggle": "Εναλλαγή Προσομοίωσης",
 
@@ -209,6 +256,10 @@
 	"LiquifyCommand": "Υγροποίηση",
 	"ElastifyCommand": "Ελαστικοποίηση",
 	"MultiPropertyChangeCommand": "Αλλαγή Πολλαπλών Ιδιοτήτων",
+	"RectangularArrayCommand": "Ορθογώνιος Πίνακας",
+	"LinearGradientCommand": "Γραμμική Διαβάθμιση",
+	"RadialGradientCommand": "Ακτινική Διαβάθμιση",
+	"MazeCommand": "Λαβύρινθος",
 
 	"CoreObject": "Αντικείμενο",
 	"CoreObject.id": "Ταυτότητα",
@@ -312,6 +363,8 @@
 	"TextNode": "Κείμενο",
 	"TextNode.text": "Κείμενο",
 	"TextNode.resolution": "Ανάλυση",
+	"TextNode.fontName": "Όνομα Γραμματοσειράς",
+	"TextNode.fontSize": "Μέγεθος Γραμματοσειράς",
 
 	"PolylineNode": "Πολυγραμμή",
 	"PolylineNode.polyline": "Πολυγραμμή",
@@ -338,11 +391,13 @@
 	"JointNode.anchorB": "Σημείο B",
 
 	"WeldJointNode": "Σύνδεσμος συγκόλλησης",
+	"WeldJointNode.referenceAngle": "Γωνία Αναφοράς",
 	"WeldJointNode.frequencyHz": "Συχνότητα Hz",
 	"WeldJointNode.dampingRatio": "Απόσβεση",
 	"WeldJointNode.size": "Μέγεθος",
 
 	"RevoluteJointNode": "Σύνδεσμος Περιστροφής",
+	"RevoluteJointNode.referenceAngle": "Γωνία Αναφοράς",
 	"RevoluteJointNode.motorEnabled": "Ενεργοποίηση Μοτέρ",
 	"RevoluteJointNode.motorSpeed": "Ταχύτητα Μοτέρ",
 	"RevoluteJointNode.maxMotorTorque": "Μέγιστη Ροπή Μοτέρ",
@@ -350,9 +405,9 @@
 	"RevoluteJointNode.lowerAngle": "Κάτω Γωνία",
 	"RevoluteJointNode.upperAngle": "Πάνω Γωνία",
 	"RevoluteJointNode.radius": "Ακτίνα",
-	"RevoluteJointNode.referenceAngle": "Γωνία Αναφοράς",
 
 	"DistanceJointNode": "Σύνδεσμος Απόστασης",
+	"DistanceJointNode.length": "Μήκος",
 	"DistanceJointNode.frequencyHz": "Συχνότητα Hz",
 	"DistanceJointNode.dampingRatio": "Απόσβεση",
 
@@ -407,12 +462,19 @@
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Εικόνα",
 	"SpriteNode.scale": "Κλίμακα",
+	"SpriteNode.tint": "Απόχρωση",
+
+	"TilingSpriteNode": "Tiling Sprite",
+	"TilingSpriteNode.texture": "Εικόνα",
+	"TilingSpriteNode.tileScale": "Κλίμακα Πλακιδίου",
+	"TilingSpriteNode.width": "Μήκος",
+	"TilingSpriteNode.height": "Ύψος",
 
 	"ParticleGroupNode": "Particle Group",
 	"ParticleGroupNode.internalState": "Internal State",
 	"ParticleGroupNode.spriteScale": "Sprite Scale",
 	"ParticleGroupNode.spriteBlendMode": "Sprite Blend Mode",
-	
+		
 	"LiquidNode": "Liquid Node",
 	
 	"ElasticNode": "Elastic Node",
@@ -433,6 +495,8 @@
 	"RegularPolygonActionOptions.sides": "Πλευρές",
 	"TextActionOptions.text": "Κείμενο",
 	"TextActionOptions.resolution": "Ανάλυση",
+	"TextActionOptions.fontName": "Όνομα Γραμματοσειράς",
+	"TextActionOptions.fontSize": "Μέγεθος Γραμματοσειράς",
 	"PolylineActionOptions.width": "Πάχος",
 	"PolylineActionOptions.joinType": "Τύπος Σύνδεσης",
 	"PolylineActionOptions.endType": "Τύπος Άκρων",
@@ -446,5 +510,21 @@
 	"RopeActionOptions.segmentSize": "Μέγεθος Τμήματος",
 	"RopeActionOptions.attachStart": "Σύνδεση Αρχής",
 	"RopeActionOptions.attachEnd": "Σύνδεση Τέλους",
-	"ParticleEmitterActionOptions.preset": "Preset"
+	"ParticleEmitterActionOptions.preset": "Preset",
+
+	"RectangularArrayActionParams.rows": "Σειρές",
+	"RectangularArrayActionParams.columns": "Στήλες",
+	"RectangularArrayActionParams.rowSpacing": "Διάστιχο Σειρών",
+	"RectangularArrayActionParams.columnSpacing": "Διάστιχο Στηλών",
+
+	"LinearGradientActionParams.colors": "Χρώματα",
+	"LinearGradientActionParams.orientation": "Προσανατολισμός",
+
+	"RadialGradientActionParams.colors": "Χρώματα",
+
+	"MazeActionParams.xSize": "Μέγεθος X",
+	"MazeActionParams.ySize": "Μέγεθος Y",
+	"MazeActionParams.cellSize": "Μέγεθος Κελιού",
+	"MazeActionParams.wallThickness": "Πάχος Τοιχώματος",
+	"MazeActionParams.color": "Χρώμα"
 }

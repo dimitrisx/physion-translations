@@ -2,6 +2,9 @@
 	"helloWorld": "Hello world!",
 	"test": "Thử nghiệm",
 
+	"Orientation.Horizontal": "Horizontal",
+	"Orientation.Vertical": "Vertical",
+
 	"BodyType.static": "Static",
 	"BodyType.kinematic": "Kinematic",
 	"BodyType.dynamic": "Dynamic",
@@ -32,6 +35,11 @@
 	"UserInfo.aboutMe": "Về tôi",
 	"UserInfo.memberSince": "Tham gia từ",
 
+	"SceneInfoDialog.title": "Scene Information",
+
+	"SceneRating.pleaseLoginToRateThisScene": "Please login to rate this scene",
+	"SceneRating.cannotRateYourOwnScene": "Cannot rate your own scene",
+
 	"GraphPane.selectButton": "Chọn Đồ thị",
 	"GraphPane.closeButton": "Đóng (xóa) Đồ thị",
 
@@ -39,14 +47,24 @@
 	"sceneBrowser.publicScenes": "Scene công khai",
 	"sceneBrowser.myScenes": "Scene của tôi",
 	"sceneBrowser.noScenesAvailable": "Không có Scene nào cả :(",
+	"sceneBrowser.search": "Search...",
 
 	"propertyEditorWidget.nothingSelected": "Không có gì được chọn",
 	"propertyEditorWidget.selectScene": "Chọn Scene",
 
 	"scriptExecutionDialog.title": "Chạy script",
+	"scriptExecutionDialog.scriptParameters": "Script Parameters",
 	"scriptExecutionDialog.execute": "Chạy",
 
 	"assetsLibraryDialog.title": "Quản lý Asset",
+
+	"toolActionDialog.initializing": "Initializing",
+	"toolActionDialog.initializationFailed": "Initialization Failed",
+	"toolActionDialog.toolDescription": "Tool Description",
+	"toolActionDialog.toolParameters": "Tool Parameters",
+	"toolActionDialog.errors": "Errors",
+	"toolActionDialog.noErrors": "No errors",
+	"toolActionDialog.execute": "Execute",
 
 	"assetsSelector.noAssetsAvailable": "Không có tài nguyên ở đây",
 
@@ -73,6 +91,7 @@
 	"logout": "Đăng xuất",
 
 	"continueWithFacebook": "Tiếp tục với Facebook",
+	"continueWithGoogle": "Continue with Google",
 
 	"save": "Lưu",
 	"saveSuccess": "Lưu thành công",
@@ -88,6 +107,7 @@
 	"deleteFailure": "Xóa thất bại",
 
 	"start": "Bắt đầu",
+	"info": "Info",
 	"edit": "Chỉnh sửa",
 	"apply": "Áp dụng",
 
@@ -111,6 +131,7 @@
 	"menu.view": "Xem",
 	"menu.view.zoom": "Thu phóng",
 	"menu.view.layout": "Bố cục",
+	"menu.tools": "Tools",
 	"menu.help": "Trợ giúp",
 
 	"toolbar.edit": "Tùy chỉnh",
@@ -144,7 +165,9 @@
 	"action.help.about": "Về Physion",
 	"action.help.changelog": "Changelog",
 	"action.help.social": "Mạng xã hội",
-
+	"action.help.privacyPolicy": "Privacy Policy",
+	"action.help.termsOfService": "Terms of Service",
+	
 	"action.design.select": "Lựa chọn",
 	"action.design.move": "Di chuyển",
 	"action.design.mirror": "Lật",
@@ -167,6 +190,30 @@
 	"action.design.tracer": "Bút",
 	"action.design.particleEmitter": "Particle Emitter",
 	"action.design.graph": "Tạo đồ thị",
+
+	"action.tools.rectangularArray": "Rectangular Array",
+	"action.tools.rectangularArray.description": "Creates multiple copies of the selected objects arranged in a rectangular pattern.",
+	"action.tools.rectangularArray.errors.rowsNotPositiveInteger": "Rows is not a positive integer.",
+	"action.tools.rectangularArray.errors.columnsNotPositiveInteger": "Columns is not a positive integer.",
+	"action.tools.rectangularArray.errors.rowsAndColumnsBoth1": "Rows and Columns cannot be both 1.",
+
+	"action.tools.gradient.linear": "Linear Gradient",
+	"action.tools.gradient.linear.description": "Applies a linear gradient to the selected objects.",
+	"action.tools.gradient.linear.errors.invalidColor": "\"{color}\" is an invalid color.",
+	"action.tools.gradient.linear.errors.atLeastTwoColorsRequired": "At least two colors are required.",
+	"action.tools.gradient.linear.errors.invalidOrientation": "Invalid orientation.",
+	
+	"action.tools.gradient.radial": "Radial Gradient",
+	"action.tools.gradient.radial.description": "Applies a radial gradient to the selected objects.",
+	"action.tools.gradient.radial.errors.invalidColor": "\"{color}\" is an invalid color.",
+	"action.tools.gradient.radial.errors.atLeastTwoColorsRequired": "At least two colors are required.",
+
+	"action.tools.maze": "Maze",
+	"action.tools.maze.description": "Generates a random rectangular maze based on the given parameters. Maze dimensions are defined by 'X Size' and 'Y Size'. The size of each cell is specified by 'Cell Size' while the wall thickness is specified by the 'Wall Thickness' parameter.",
+	"action.tools.maze.errors.xSizeNotPositiveInteger": "X Size is not a positive integer.",
+	"action.tools.maze.errors.ySizeNotPositiveInteger": "Y Size is not a positive integer.",
+	"action.tools.maze.errors.cellSizeNotPositive": "Cell Size is not a positive number.",
+	"action.tools.maze.errors.wallThicknessNotPositive": "Wall Thickness is not a positive number.",
 
 	"action.sceneControl.toggle": "Chạy",
 
@@ -209,7 +256,11 @@
 	"LiquifyCommand": "Hóa lỏng",
 	"ElastifyCommand": "Đàn hồi hóa",
 	"MultiPropertyChangeCommand": "Thay đổi nhiều thuộc tính",
-
+	"RectangularArrayCommand": "Rectangular Array",
+	"LinearGradientCommand": "Linear Gradient",
+	"RadialGradientCommand": "Radial Gradient",
+	"MazeCommand": "Maze",
+	
 	"CoreObject": "Object",	
 	"CoreObject.id": "ID",
 	"CoreObject.name": "Tên",
@@ -312,6 +363,8 @@
 	"TextNode": "Văn bản",
 	"TextNode.text": "Văn bản",
 	"TextNode.resolution": "Độ phân giải",
+	"TextNode.fontName": "Font Name",
+	"TextNode.fontSize": "Font Size",
 
 	"PolylineNode": "Đường gấp khúc",
 	"PolylineNode.polyline": "Đường gấp khúc",
@@ -338,11 +391,13 @@
 	"JointNode.anchorB": "Anchor B",
 
 	"WeldJointNode": "Liên kết hàn",
+	"WeldJointNode.referenceAngle": "Reference Angle",
 	"WeldJointNode.frequencyHz": "Tần số Hz",
 	"WeldJointNode.dampingRatio": "Tỉ số giảm xóc",
 	"WeldJointNode.size": "Kích thước",
 
 	"RevoluteJointNode": "Trục quay",
+	"RevoluteJointNode.referenceAngle": "Góc tham chiếu",
 	"RevoluteJointNode.motorEnabled": "Động cơ",
 	"RevoluteJointNode.motorSpeed": "Tốc độ",
 	"RevoluteJointNode.maxMotorTorque": "Moment xoắn động cơ tối đa",
@@ -350,9 +405,9 @@
 	"RevoluteJointNode.lowerAngle": "Góc dưới",
 	"RevoluteJointNode.upperAngle": "Góc trên",
 	"RevoluteJointNode.radius": "Bán kính",
-	"RevoluteJointNode.referenceAngle": "Góc tham chiếu",
 
 	"DistanceJointNode": "Liên kết từ xa",
+	"DistanceJointNode.length": "Length",
 	"DistanceJointNode.frequencyHz": "Tần số Hz",
 	"DistanceJointNode.dampingRatio": "Tỷ lệ giảm xóc",
 
@@ -407,7 +462,14 @@
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Ảnh",
 	"SpriteNode.scale": "Kích thước",
+	"SpriteNode.tint": "Tint",
 
+	"TilingSpriteNode": "Tiling Sprite",
+	"TilingSpriteNode.texture": "Texture",
+	"TilingSpriteNode.tileScale": "Tile Scale",
+	"TilingSpriteNode.width": "Width",
+	"TilingSpriteNode.height": "Height",
+	
 	"ParticleGroupNode": "Nhóm hạt",
 	"ParticleGroupNode.internalState": "Trạng thái",
 	"ParticleGroupNode.spriteScale": "Kích thước Sprite",
@@ -433,6 +495,8 @@
 	"RegularPolygonActionOptions.sides": "Cạnh",
 	"TextActionOptions.text": "Văn bản",
 	"TextActionOptions.resolution": "Độ phân giải",
+	"TextActionOptions.fontName": "Font Name",
+	"TextActionOptions.fontSize": "Font Size",
 	"PolylineActionOptions.width": "Chiều rộng",
 	"PolylineActionOptions.joinType": "Join Type",
 	"PolylineActionOptions.endType": "End Type",
@@ -446,5 +510,21 @@
 	"RopeActionOptions.segmentSize": "Segment Size",
 	"RopeActionOptions.attachStart": "Gắn điểm đầu",
 	"RopeActionOptions.attachEnd": "Gắn điểm cuối",
-	"ParticleEmitterActionOptions.preset": "Preset"
+	"ParticleEmitterActionOptions.preset": "Preset",
+
+	"RectangularArrayActionParams.rows": "Rows",
+	"RectangularArrayActionParams.columns": "Columns",
+	"RectangularArrayActionParams.rowSpacing": "Row Spacing",
+	"RectangularArrayActionParams.columnSpacing": "Column Spacing",
+
+	"LinearGradientActionParams.colors": "Colors",
+	"LinearGradientActionParams.orientation": "Orientation",
+
+	"RadialGradientActionParams.colors": "Colors",
+
+	"MazeActionParams.xSize": "X Size",
+	"MazeActionParams.ySize": "Y Size",
+	"MazeActionParams.cellSize": "Cell Size",
+	"MazeActionParams.wallThickness": "Wall Thickness",
+	"MazeActionParams.color": "Color"
 }

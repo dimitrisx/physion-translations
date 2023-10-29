@@ -2,6 +2,9 @@
 	"helloWorld": "Hello world!",
 	"test": "Test",
 
+	"Orientation.Horizontal": "Horizontal",
+	"Orientation.Vertical": "Vertical",
+
 	"BodyType.static": "Static",
 	"BodyType.kinematic": "Kinematic",
 	"BodyType.dynamic": "Dynamic",
@@ -32,6 +35,11 @@
 	"UserInfo.aboutMe": "About Me",
 	"UserInfo.memberSince": "Member Since",
 
+	"SceneInfoDialog.title": "Scene Information",
+
+	"SceneRating.pleaseLoginToRateThisScene": "Please login to rate this scene",
+	"SceneRating.cannotRateYourOwnScene": "Cannot rate your own scene",
+
 	"GraphPane.selectButton": "Select Graph",
 	"GraphPane.closeButton": "Close (delete) Graph",
 
@@ -39,14 +47,24 @@
 	"sceneBrowser.publicScenes": "Public Scenes",
 	"sceneBrowser.myScenes": "My Scenes",
 	"sceneBrowser.noScenesAvailable": "No Scenes available",
+	"sceneBrowser.search": "Search...",
 
 	"propertyEditorWidget.nothingSelected": "Nothing is currently selected",
 	"propertyEditorWidget.selectScene": "Select Scene",
 
 	"scriptExecutionDialog.title": "Execute Script",
+	"scriptExecutionDialog.scriptParameters": "Script Parameters",
 	"scriptExecutionDialog.execute": "Execute",
 
 	"assetsLibraryDialog.title": "Assets Library",
+
+	"toolActionDialog.initializing": "Initializing",
+	"toolActionDialog.initializationFailed": "Initialization Failed",
+	"toolActionDialog.toolDescription": "Tool Description",
+	"toolActionDialog.toolParameters": "Tool Parameters",
+	"toolActionDialog.errors": "Errors",
+	"toolActionDialog.noErrors": "No errors",
+	"toolActionDialog.execute": "Execute",
 
 	"assetsSelector.noAssetsAvailable": "No assets available",
 
@@ -73,6 +91,7 @@
 	"logout": "Logout",
 
 	"continueWithFacebook": "Continue with Facebook",
+	"continueWithGoogle": "Continue with Google",
 
 	"save": "Save",
 	"saveSuccess": "Saved successfully",
@@ -88,6 +107,7 @@
 	"deleteFailure": "Failed to delete",
 
 	"start": "Start",
+	"info": "Info",
 	"edit": "Edit",
 	"apply": "Apply",
 
@@ -111,6 +131,7 @@
 	"menu.view": "View",
 	"menu.view.zoom": "Zoom",
 	"menu.view.layout": "Layout",
+	"menu.tools": "Tools",
 	"menu.help": "Help",
 
 	"toolbar.edit": "Edit Toolbar",
@@ -144,6 +165,8 @@
 	"action.help.about": "About Physion",
 	"action.help.changelog": "Changelog",
 	"action.help.social": "Social Media",
+	"action.help.privacyPolicy": "Privacy Policy",
+	"action.help.termsOfService": "Terms of Service",
 
 	"action.design.select": "Selection Tool",
 	"action.design.move": "Move Tool",
@@ -167,6 +190,30 @@
 	"action.design.tracer": "Create Tracer",
 	"action.design.particleEmitter": "Particle Emitter",
 	"action.design.graph": "Create Graph",
+
+	"action.tools.rectangularArray": "Rectangular Array",
+	"action.tools.rectangularArray.description": "Creates multiple copies of the selected objects arranged in a rectangular pattern.",
+	"action.tools.rectangularArray.errors.rowsNotPositiveInteger": "Rows is not a positive integer.",
+	"action.tools.rectangularArray.errors.columnsNotPositiveInteger": "Columns is not a positive integer.",
+	"action.tools.rectangularArray.errors.rowsAndColumnsBoth1": "Rows and Columns cannot be both 1.",
+
+	"action.tools.gradient.linear": "Linear Gradient",
+	"action.tools.gradient.linear.description": "Applies a linear gradient to the selected objects.",
+	"action.tools.gradient.linear.errors.invalidColor": "\"{color}\" is an invalid color.",
+	"action.tools.gradient.linear.errors.atLeastTwoColorsRequired": "At least two colors are required.",
+	"action.tools.gradient.linear.errors.invalidOrientation": "Invalid orientation.",
+	
+	"action.tools.gradient.radial": "Radial Gradient",
+	"action.tools.gradient.radial.description": "Applies a radial gradient to the selected objects.",
+	"action.tools.gradient.radial.errors.invalidColor": "\"{color}\" is an invalid color.",
+	"action.tools.gradient.radial.errors.atLeastTwoColorsRequired": "At least two colors are required.",
+
+	"action.tools.maze": "Maze",
+	"action.tools.maze.description": "Generates a random rectangular maze based on the given parameters. Maze dimensions are defined by 'X Size' and 'Y Size'. The size of each cell is specified by 'Cell Size' while the wall thickness is specified by the 'Wall Thickness' parameter.",
+	"action.tools.maze.errors.xSizeNotPositiveInteger": "X Size is not a positive integer.",
+	"action.tools.maze.errors.ySizeNotPositiveInteger": "Y Size is not a positive integer.",
+	"action.tools.maze.errors.cellSizeNotPositive": "Cell Size is not a positive number.",
+	"action.tools.maze.errors.wallThicknessNotPositive": "Wall Thickness is not a positive number.",
 
 	"action.sceneControl.toggle": "Toggle Simulation",
 
@@ -209,6 +256,10 @@
 	"LiquifyCommand": "Liquify",
 	"ElastifyCommand": "Elastify",
 	"MultiPropertyChangeCommand": "Change Multiple Properties",
+	"RectangularArrayCommand": "Rectangular Array",
+	"LinearGradientCommand": "Linear Gradient",
+	"RadialGradientCommand": "Radial Gradient",
+	"MazeCommand": "Maze",
 
 	"CoreObject": "Object",	
 	"CoreObject.id": "ID",
@@ -312,6 +363,8 @@
 	"TextNode": "Text",
 	"TextNode.text": "Text",
 	"TextNode.resolution": "Resolution",
+	"TextNode.fontName": "Font Name",
+	"TextNode.fontSize": "Font Size",
 
 	"PolylineNode": "Polyline",
 	"PolylineNode.polyline": "Polyline",
@@ -338,11 +391,13 @@
 	"JointNode.anchorB": "Anchor B",
 
 	"WeldJointNode": "Weld Joint",
+	"WeldJointNode.referenceAngle": "Reference Angle",
 	"WeldJointNode.frequencyHz": "Frequency Hz",
 	"WeldJointNode.dampingRatio": "Damping Ratio",
 	"WeldJointNode.size": "Size",
 
 	"RevoluteJointNode": "Revolute Joint",
+	"RevoluteJointNode.referenceAngle": "Reference Angle",
 	"RevoluteJointNode.motorEnabled": "Motor Enabled",
 	"RevoluteJointNode.motorSpeed": "Motor Speed",
 	"RevoluteJointNode.maxMotorTorque": "Max Motor Torque",
@@ -350,9 +405,9 @@
 	"RevoluteJointNode.lowerAngle": "Lower Angle",
 	"RevoluteJointNode.upperAngle": "Upper Angle",
 	"RevoluteJointNode.radius": "Radius",
-	"RevoluteJointNode.referenceAngle": "Reference Angle",
 
 	"DistanceJointNode": "Distance Joint",
+	"DistanceJointNode.length": "Length",
 	"DistanceJointNode.frequencyHz": "Frequency Hz",
 	"DistanceJointNode.dampingRatio": "Damping Ratio",
 
@@ -407,6 +462,13 @@
 	"SpriteNode": "Sprite",
 	"SpriteNode.texture": "Texture",
 	"SpriteNode.scale": "Scale",
+	"SpriteNode.tint": "Tint",
+
+	"TilingSpriteNode": "Tiling Sprite",
+	"TilingSpriteNode.texture": "Texture",
+	"TilingSpriteNode.tileScale": "Tile Scale",
+	"TilingSpriteNode.width": "Width",
+	"TilingSpriteNode.height": "Height",
 
 	"ParticleGroupNode": "Particle Group",
 	"ParticleGroupNode.internalState": "Internal State",
@@ -433,6 +495,8 @@
 	"RegularPolygonActionOptions.sides": "Sides",
 	"TextActionOptions.text": "Text",
 	"TextActionOptions.resolution": "Resolution",
+	"TextActionOptions.fontName": "Font Name",
+	"TextActionOptions.fontSize": "Font Size",
 	"PolylineActionOptions.width": "Width",
 	"PolylineActionOptions.joinType": "Join Type",
 	"PolylineActionOptions.endType": "End Type",
@@ -446,5 +510,21 @@
 	"RopeActionOptions.segmentSize": "Segment Size",
 	"RopeActionOptions.attachStart": "Attach Start",
 	"RopeActionOptions.attachEnd": "Attach End",
-	"ParticleEmitterActionOptions.preset": "Preset"
+	"ParticleEmitterActionOptions.preset": "Preset",
+
+	"RectangularArrayActionParams.rows": "Rows",
+	"RectangularArrayActionParams.columns": "Columns",
+	"RectangularArrayActionParams.rowSpacing": "Row Spacing",
+	"RectangularArrayActionParams.columnSpacing": "Column Spacing",
+
+	"LinearGradientActionParams.colors": "Colors",
+	"LinearGradientActionParams.orientation": "Orientation",
+
+	"RadialGradientActionParams.colors": "Colors",
+
+	"MazeActionParams.xSize": "X Size",
+	"MazeActionParams.ySize": "Y Size",
+	"MazeActionParams.cellSize": "Cell Size",
+	"MazeActionParams.wallThickness": "Wall Thickness",
+	"MazeActionParams.color": "Color"
 }
