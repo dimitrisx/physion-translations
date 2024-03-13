@@ -19,6 +19,15 @@
 	"RopeSegmentType.Rectangle": "Hình chữ nhật",
 	"RopeSegmentType.Circle": "Hình tròn",
 
+	"ParticleFlags.WaterParticle": "Water Particle",
+	"ParticleFlags.SpringParticle": "Spring Particle",
+	"ParticleFlags.ElasticParticle": "Elastic Particle",
+	"ParticleFlags.ViscousParticle": "Viscous Particle",
+	"ParticleFlags.PowderParticle": "Powder Particle",
+	"ParticleFlags.TensileParticle": "Tensile Particle",
+	"ParticleFlags.ColorMixingParticle": "Color Mixing Particle",
+	"ParticleFlags.StaticPressureParticle": "Static Pressure Particle",
+
 	"SelectionEditor.type": "Loại",
 	"SelectionEditor.count": "Số lượng",
 	"SelectionEditor.checkAll": "Chọn tất cả",
@@ -185,10 +194,10 @@
 	"action.design.joint.distance": "Tạo liên kết từ xa",
 	"action.design.joint.mouse": "Kéo chuột",
 	"action.design.spring": "Tạo lò xo",
-	"action.design.liquify": "Hóa lỏng",
-	"action.design.elastify": "Đàn hồi hóa",
+	"action.design.particleGroup": "Create Particle Group",
 	"action.design.tracer": "Bút",
 	"action.design.particleEmitter": "Particle Emitter",
+	"action.design.sprite": "Create Sprite",
 	"action.design.graph": "Tạo đồ thị",
 
 	"action.tools.rectangularArray": "Mảng khối chữ nhật",
@@ -214,6 +223,13 @@
 	"action.tools.maze.errors.ySizeNotPositiveInteger": "Kích thước Y không phải là số nguyên dương.",
 	"action.tools.maze.errors.cellSizeNotPositive": "Kích thước khối đơn vị không phải là số dương.",
 	"action.tools.maze.errors.wallThicknessNotPositive": "Độ dày tường không phải là số dương.",
+
+	"action.tools.voronoiCells": "Voronoi Cells",
+	"action.tools.voronoiCells.description": "Generates Voronoi Cells (i.e. polygons) out of the currently selected objects in the Scene. The size of each cell is proportional to the 'Grid Step' parameter. The shape randomness of each cell depends on the 'Jitter Factor' parameter. You can scale the generated polygons using the 'Scale Factor' parameter.",
+	"action.tools.voronoiCells.errors.minGridStep": "Grid step cannot be less than {minGridStep}.",
+
+	"action.tools.conveyorBelt": "Conveyor Belt",
+	"action.tools.conveyorBelt.description": "Creates a conveyor belt around the selected objects.",
 
 	"action.sceneControl.toggle": "Chạy",
 
@@ -253,13 +269,14 @@
 	"ReorderNodeCommand": "Sắp xếp lại Node",
 	"MoveNodesCommand": "Di chuyển",
 	"MirrorNodesCommand": "Lật",
-	"LiquifyCommand": "Hóa lỏng",
-	"ElastifyCommand": "Đàn hồi hóa",
+	"ParticleGroupCommand": "Particle Group",
 	"MultiPropertyChangeCommand": "Thay đổi nhiều thuộc tính",
 	"RectangularArrayCommand": "Mảng khối chữ nhật",
 	"LinearGradientCommand": "Gradient thẳng",
 	"RadialGradientCommand": "Gradient vòng tròn",
 	"MazeCommand": "Mê cung",
+	"VoronoiCellsCommand": "Voronoi Cells",
+	"ConveyorBeltCommand": "Conveyor Belt",
 	
 	"CoreObject": "Object",	
 	"CoreObject.id": "ID",
@@ -275,6 +292,7 @@
 
 	"GeneralSection": "Chung",
 	"GeneralSection.createGroundOnNewScene": "Tạo nền cho cảnh mới",
+	"GeneralSection.defaultViewportPluginsOptions": "Default Viewport Plugins Options",
 
 	"Node": "Node",
 	"Node.x": "Vị trí X",
@@ -472,13 +490,10 @@
 	
 	"ParticleGroupNode": "Nhóm hạt",
 	"ParticleGroupNode.internalState": "Trạng thái",
+	"ParticleGroupNode.particleFlags": "Particle Flags",
 	"ParticleGroupNode.spriteScale": "Kích thước Sprite",
 	"ParticleGroupNode.spriteBlendMode": "Sprite Blend Mode",
-		
-	"LiquidNode": "Chất lỏng",
-
-	"ElasticNode": "Vật đàn hồi",
-	
+			
 	"GraphNode": "Đồ thị",
 	"GraphNode.bodyNodeId": "Body",
 	"GraphNode.property": "Thuộc tính",
@@ -510,8 +525,11 @@
 	"RopeActionOptions.segmentSize": "Segment Size",
 	"RopeActionOptions.attachStart": "Gắn điểm đầu",
 	"RopeActionOptions.attachEnd": "Gắn điểm cuối",
+	"ParticleGroupActionOptions.particleFlags": "Particle Flags",
 	"ParticleEmitterActionOptions.preset": "Bản mẫu",
-
+	"SpriteActionOptions.texture": "Texture",
+	"SpriteActionOptions.scale": "Scale",
+	
 	"RectangularArrayActionParams.rows": "Hàng",
 	"RectangularArrayActionParams.columns": "Cột",
 	"RectangularArrayActionParams.rowSpacing": "Giãn cách hàng",
@@ -526,5 +544,14 @@
 	"MazeActionParams.ySize": "Kích thước Y",
 	"MazeActionParams.cellSize": "Kích thước khối đơn vị",
 	"MazeActionParams.wallThickness": "Độ dày tường",
-	"MazeActionParams.color": "Màu"
+	"MazeActionParams.color": "Màu",
+
+	"VoronoiCellsActionParams.gridStep": "Grid Step",
+	"VoronoiCellsActionParams.jitterFactor": "Jitter Factor",
+	"VoronoiCellsActionParams.scaleFactor": "Scale Factor",
+
+	"ConveyorBeltActionParams.segmentCount": "Segment Count",
+	"ConveyorBeltActionParams.segmentType": "Segment Type",
+	"ConveyorBeltActionParams.color": "Color",
+	"ConveyorBeltActionParams.alternatingColor": "Alternating Color"	
 }

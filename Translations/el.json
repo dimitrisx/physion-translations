@@ -19,6 +19,15 @@
 	"RopeSegmentType.Rectangle": "Παραλληλόγραμμο",
 	"RopeSegmentType.Circle": "Κύκλος",
 
+	"ParticleFlags.WaterParticle": "Water Particle",
+	"ParticleFlags.SpringParticle": "Spring Particle",
+	"ParticleFlags.ElasticParticle": "Elastic Particle",
+	"ParticleFlags.ViscousParticle": "Viscous Particle",
+	"ParticleFlags.PowderParticle": "Powder Particle",
+	"ParticleFlags.TensileParticle": "Tensile Particle",
+	"ParticleFlags.ColorMixingParticle": "Color Mixing Particle",
+	"ParticleFlags.StaticPressureParticle": "Static Pressure Particle",
+
 	"SelectionEditor.type": "Τύπος",
 	"SelectionEditor.count": "Σύνολο",
 	"SelectionEditor.checkAll": "Επιλογή όλων",
@@ -185,10 +194,10 @@
 	"action.design.joint.distance": "Δημιουργία Συνδέσμου Απόστασης",
 	"action.design.joint.mouse": "Δημιουργία Συνδέσμου Ποντικιού",
 	"action.design.spring": "Δημιουργία Ελατηρίου",
-	"action.design.liquify": "Υγροποίηση",
-	"action.design.elastify": "Ελαστικοποίηση",
+	"action.design.particleGroup": "Create Particle Group",
 	"action.design.tracer": "Δημιουργία Ιχνηλάτη",
 	"action.design.particleEmitter": "Particle Emitter",
+	"action.design.sprite": "Δημιουργία Sprite",
 	"action.design.graph": "Δημιουργία Γραφήματος",
 
 	"action.tools.rectangularArray": "Ορθογώνιος Πίνακας",
@@ -214,6 +223,13 @@
 	"action.tools.maze.errors.ySizeNotPositiveInteger": "Το 'Μέγεθος Y' δεν είναι θετικός ακέραιος.",
 	"action.tools.maze.errors.cellSizeNotPositive": "Το 'Μέγεθος Κελιού' δεν είναι θετικός αριθμός.",
 	"action.tools.maze.errors.wallThicknessNotPositive": "Το 'Πάχος Τοιχώματος' δεν είναι θετικός αριθμός.",
+
+	"action.tools.voronoiCells": "Voronoi Cells",
+	"action.tools.voronoiCells.description": "Generates Voronoi Cells (i.e. polygons) out of the currently selected objects in the Scene. The size of each cell is proportional to the 'Grid Step' parameter. The shape randomness of each cell depends on the 'Jitter Factor' parameter. You can scale the generated polygons using the 'Scale Factor' parameter.",
+	"action.tools.voronoiCells.errors.minGridStep": "Grid step cannot be less than {minGridStep}.",
+
+	"action.tools.conveyorBelt": "Conveyor Belt",
+	"action.tools.conveyorBelt.description": "Creates a conveyor belt around the selected objects.",
 
 	"action.sceneControl.toggle": "Εναλλαγή Προσομοίωσης",
 
@@ -253,13 +269,14 @@
 	"ReorderNodeCommand": "Αναδιάταξη Κόμβου",
 	"MoveNodesCommand": "Μετακίνηση Κόμβων",
 	"MirrorNodesCommand": "Αντιστροφή Κόμβων",
-	"LiquifyCommand": "Υγροποίηση",
-	"ElastifyCommand": "Ελαστικοποίηση",
+	"ParticleGroupCommand": "Particle Group",
 	"MultiPropertyChangeCommand": "Αλλαγή Πολλαπλών Ιδιοτήτων",
 	"RectangularArrayCommand": "Ορθογώνιος Πίνακας",
 	"LinearGradientCommand": "Γραμμική Διαβάθμιση",
 	"RadialGradientCommand": "Ακτινική Διαβάθμιση",
 	"MazeCommand": "Λαβύρινθος",
+	"VoronoiCellsCommand": "Voronoi Cells",
+	"ConveyorBeltCommand": "Conveyor Belt",
 
 	"CoreObject": "Αντικείμενο",
 	"CoreObject.id": "Ταυτότητα",
@@ -275,6 +292,7 @@
 
 	"GeneralSection": "Γενικές",
 	"GeneralSection.createGroundOnNewScene": "Δημιουργία εδάφους στις νέες σκηνές",
+	"GeneralSection.defaultViewportPluginsOptions": "Default Viewport Plugins Options",
 
 	"Node": "Κόμβος",
 	"Node.x": "X",
@@ -472,13 +490,10 @@
 
 	"ParticleGroupNode": "Particle Group",
 	"ParticleGroupNode.internalState": "Internal State",
+	"ParticleGroupNode.particleFlags": "Particle Flags",
 	"ParticleGroupNode.spriteScale": "Sprite Scale",
 	"ParticleGroupNode.spriteBlendMode": "Sprite Blend Mode",
 		
-	"LiquidNode": "Liquid Node",
-	
-	"ElasticNode": "Elastic Node",
-
 	"GraphNode": "Γράφημα",
 	"GraphNode.bodyNodeId": "Σώμα",
 	"GraphNode.property": "Ιδιότητα",
@@ -510,7 +525,10 @@
 	"RopeActionOptions.segmentSize": "Μέγεθος Τμήματος",
 	"RopeActionOptions.attachStart": "Σύνδεση Αρχής",
 	"RopeActionOptions.attachEnd": "Σύνδεση Τέλους",
+	"ParticleGroupActionOptions.particleFlags": "Particle Flags",
 	"ParticleEmitterActionOptions.preset": "Preset",
+	"SpriteActionOptions.texture": "Εικόνα",
+	"SpriteActionOptions.scale": "Κλίμακα",
 
 	"RectangularArrayActionParams.rows": "Σειρές",
 	"RectangularArrayActionParams.columns": "Στήλες",
@@ -526,5 +544,14 @@
 	"MazeActionParams.ySize": "Μέγεθος Y",
 	"MazeActionParams.cellSize": "Μέγεθος Κελιού",
 	"MazeActionParams.wallThickness": "Πάχος Τοιχώματος",
-	"MazeActionParams.color": "Χρώμα"
+	"MazeActionParams.color": "Χρώμα",
+
+	"VoronoiCellsActionParams.gridStep": "Grid Step",
+	"VoronoiCellsActionParams.jitterFactor": "Jitter Factor",
+	"VoronoiCellsActionParams.scaleFactor": "Scale Factor",
+
+	"ConveyorBeltActionParams.segmentCount": "Segment Count",
+	"ConveyorBeltActionParams.segmentType": "Segment Type",
+	"ConveyorBeltActionParams.color": "Color",
+	"ConveyorBeltActionParams.alternatingColor": "Alternating Color"	
 }

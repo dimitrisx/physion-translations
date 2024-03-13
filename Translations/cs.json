@@ -19,6 +19,15 @@
 	"RopeSegmentType.Rectangle": "Obdelníkové",
 	"RopeSegmentType.Circle": "Kruhové",
 
+	"ParticleFlags.WaterParticle": "Částice vody",
+	"ParticleFlags.SpringParticle": "Částice pružiny",
+	"ParticleFlags.ElasticParticle": "Elatická částice",
+	"ParticleFlags.ViscousParticle": "Hustá částice",
+	"ParticleFlags.PowderParticle": "Sypkavá částice",
+	"ParticleFlags.TensileParticle": "Přitažlivá částice",
+	"ParticleFlags.ColorMixingParticle": "Částice mýchajícý barvy",
+	"ParticleFlags.StaticPressureParticle": "Částice statického tlaku",
+
 	"SelectionEditor.type": "Typ",
 	"SelectionEditor.count": "Počet",
 	"SelectionEditor.checkAll": "Zvolit vše",
@@ -185,10 +194,10 @@
 	"action.design.joint.distance": "Vytvořit vzdálené spojení",
 	"action.design.joint.mouse": "Tahat myší",
 	"action.design.spring": "Vytvořit pružinu",
-	"action.design.liquify": "Změnit na tekutinu",
-	"action.design.elastify": "Udělat elastické",
+	"action.design.particleGroup": "Create Particle Group",
 	"action.design.tracer": "Vytvořit stopovač",
 	"action.design.particleEmitter": "Vytvářeč částic",
+	"action.design.sprite": "Create Sprite",
 	"action.design.graph": "Vytvořit graf",
 
 	"action.tools.rectangularArray": "Řada ve tvaru obdelníku",
@@ -214,6 +223,13 @@
 	"action.tools.maze.errors.ySizeNotPositiveInteger": "Velikost Y není pozitivní celé číso.",
 	"action.tools.maze.errors.cellSizeNotPositive": "Velikost buňek není pozitivní čislo.",
 	"action.tools.maze.errors.wallThicknessNotPositive": "Tloušťka zdí není pozitivní čislo.",
+
+	"action.tools.voronoiCells": "Voronoi buňky",
+	"action.tools.voronoiCells.description": "Generuje voronoi buňky, neboli polygony, efektivňe přidá praskliny k objektu.",
+	"action.tools.voronoiCells.errors.minGridStep": "Krok mřížky nemůže být méňe než {minGridStep}.",
+
+	"action.tools.conveyorBelt": "Dopravní pás",
+	"action.tools.conveyorBelt.description": "Vytvoří pás kolem zvolených objektů.",
 
 	"action.sceneControl.toggle": "Přepnout simulaci",
 
@@ -253,13 +269,14 @@
 	"ReorderNodeCommand": "Záznámníkový objekt",
 	"MoveNodesCommand": "Přesunout objekty",
 	"MirrorNodesCommand": "Zrcadlit objekty",
-	"LiquifyCommand": "Změnit na tekutinu",
-	"ElastifyCommand": "Udělat elastické",
+	"ParticleGroupCommand": "Particle Group",
 	"MultiPropertyChangeCommand": "Změnit nekolik vlastností",
 	"RectangularArrayCommand": "Obdelníková mřižka",
 	"LinearGradientCommand": "Přechod barvy",
 	"RadialGradientCommand": "Kruhový přechod barvy",
 	"MazeCommand": "Bludiště",
+	"VoronoiCellsCommand": "Voronoi buňky",
+	"ConveyorBeltCommand": "Dopravní pás",
 
 	"CoreObject": "Objekt",	
 	"CoreObject.id": "ID",
@@ -275,6 +292,7 @@
 
 	"GeneralSection": "Obecné",
 	"GeneralSection.createGroundOnNewScene": "Vytvořit zem v nové scéňe",
+	"GeneralSection.defaultViewportPluginsOptions": "Default Viewport Plugins Options",
 
 	"Node": "Objekt",
 	"Node.x": "X",
@@ -472,12 +490,9 @@
 
 	"ParticleGroupNode": "Skupina částic",
 	"ParticleGroupNode.internalState": "Interní status",
+	"ParticleGroupNode.particleFlags": "Particle Flags",
 	"ParticleGroupNode.spriteScale": "Velikost",
 	"ParticleGroupNode.spriteBlendMode": "Režim grafického mýšení",
-
-	"LiquidNode": "Kapalinový objekt",
-
-	"ElasticNode": "Elastický objeck",
 
 	"GraphNode": "Graf",
 	"GraphNode.bodyNodeId": "Těleso",
@@ -510,7 +525,10 @@
 	"RopeActionOptions.segmentSize": "Velikost segmentů",
 	"RopeActionOptions.attachStart": "Připojit začátek",
 	"RopeActionOptions.attachEnd": "Připojit konec",
+	"ParticleGroupActionOptions.particleFlags": "Vlajky částic",
 	"ParticleEmitterActionOptions.preset": "Přednastavení",
+	"SpriteActionOptions.texture": "Textura",
+	"SpriteActionOptions.scale": "Velikost",
 
 	"RectangularArrayActionParams.rows": "Řádky",
 	"RectangularArrayActionParams.columns": "Sloupce",
@@ -526,5 +544,14 @@
 	"MazeActionParams.ySize": "Velikost Y",
 	"MazeActionParams.cellSize": "Velikost buňky",
 	"MazeActionParams.wallThickness": "Šířka stěn",
-	"MazeActionParams.color": "Barva"
+	"MazeActionParams.color": "Barva",
+
+	"VoronoiCellsActionParams.gridStep": "Krok mřížky",
+	"VoronoiCellsActionParams.jitterFactor": "Faktor chaosu",
+	"VoronoiCellsActionParams.scaleFactor": "Faktor velikosti",
+
+	"ConveyorBeltActionParams.segmentCount": "Počet segmentů",
+	"ConveyorBeltActionParams.segmentType": "Typ segmentů",
+	"ConveyorBeltActionParams.color": "Barva",
+	"ConveyorBeltActionParams.alternatingColor": "Štřídat barvu"	
 }

@@ -18,6 +18,15 @@
 
 	"RopeSegmentType.Rectangle": "Rectangle",
 	"RopeSegmentType.Circle": "Circle",
+	
+	"ParticleFlags.WaterParticle": "Water Particle",
+	"ParticleFlags.SpringParticle": "Spring Particle",
+	"ParticleFlags.ElasticParticle": "Elastic Particle",
+	"ParticleFlags.ViscousParticle": "Viscous Particle",
+	"ParticleFlags.PowderParticle": "Powder Particle",
+	"ParticleFlags.TensileParticle": "Tensile Particle",
+	"ParticleFlags.ColorMixingParticle": "Color Mixing Particle",
+	"ParticleFlags.StaticPressureParticle": "Static Pressure Particle",
 
 	"SelectionEditor.type": "Type",
 	"SelectionEditor.count": "Count",
@@ -185,10 +194,10 @@
 	"action.design.joint.distance": "Create Distance Joint",
 	"action.design.joint.mouse": "Create Mouse Joint",
 	"action.design.spring": "Create Spring",
-	"action.design.liquify": "Liquify",
-	"action.design.elastify": "Elastify",
+	"action.design.particleGroup": "Create Particle Group",
 	"action.design.tracer": "Create Tracer",
 	"action.design.particleEmitter": "Particle Emitter",
+	"action.design.sprite": "Create Sprite",
 	"action.design.graph": "Create Graph",
 
 	"action.tools.rectangularArray": "Rectangular Array",
@@ -214,6 +223,13 @@
 	"action.tools.maze.errors.ySizeNotPositiveInteger": "Y Size is not a positive integer.",
 	"action.tools.maze.errors.cellSizeNotPositive": "Cell Size is not a positive number.",
 	"action.tools.maze.errors.wallThicknessNotPositive": "Wall Thickness is not a positive number.",
+
+	"action.tools.voronoiCells": "Voronoi Cells",
+	"action.tools.voronoiCells.description": "Generates Voronoi Cells (i.e. polygons) out of the currently selected objects in the Scene. The size of each cell is proportional to the 'Grid Step' parameter. The shape randomness of each cell depends on the 'Jitter Factor' parameter. You can scale the generated polygons using the 'Scale Factor' parameter.",
+	"action.tools.voronoiCells.errors.minGridStep": "Grid step cannot be less than {minGridStep}.",
+
+	"action.tools.conveyorBelt": "Conveyor Belt",
+	"action.tools.conveyorBelt.description": "Creates a conveyor belt around the selected objects.",
 
 	"action.sceneControl.toggle": "Toggle Simulation",
 
@@ -253,13 +269,14 @@
 	"ReorderNodeCommand": "Reorder Node",
 	"MoveNodesCommand": "Move Nodes",
 	"MirrorNodesCommand": "Mirror Nodes",
-	"LiquifyCommand": "Liquify",
-	"ElastifyCommand": "Elastify",
+	"ParticleGroupCommand": "Particle Group",
 	"MultiPropertyChangeCommand": "Change Multiple Properties",
 	"RectangularArrayCommand": "Rectangular Array",
 	"LinearGradientCommand": "Linear Gradient",
 	"RadialGradientCommand": "Radial Gradient",
 	"MazeCommand": "Maze",
+	"VoronoiCellsCommand": "Voronoi Cells",
+	"ConveyorBeltCommand": "Conveyor Belt",
 
 	"CoreObject": "Object",	
 	"CoreObject.id": "ID",
@@ -275,6 +292,7 @@
 
 	"GeneralSection": "General",
 	"GeneralSection.createGroundOnNewScene": "Create ground on new Scene",
+	"GeneralSection.defaultViewportPluginsOptions": "Default Viewport Plugins Options",
 
 	"Node": "Node",
 	"Node.x": "X",
@@ -472,12 +490,9 @@
 
 	"ParticleGroupNode": "Particle Group",
 	"ParticleGroupNode.internalState": "Internal State",
+	"ParticleGroupNode.particleFlags": "Particle Flags",
 	"ParticleGroupNode.spriteScale": "Sprite Scale",
 	"ParticleGroupNode.spriteBlendMode": "Sprite Blend Mode",
-
-	"LiquidNode": "Liquid Node",
-
-	"ElasticNode": "Elastic Node",
 
 	"GraphNode": "Graph",
 	"GraphNode.bodyNodeId": "Body",
@@ -510,7 +525,10 @@
 	"RopeActionOptions.segmentSize": "Segment Size",
 	"RopeActionOptions.attachStart": "Attach Start",
 	"RopeActionOptions.attachEnd": "Attach End",
+	"ParticleGroupActionOptions.particleFlags": "Particle Flags",
 	"ParticleEmitterActionOptions.preset": "Preset",
+	"SpriteActionOptions.texture": "Texture",
+	"SpriteActionOptions.scale": "Scale",
 
 	"RectangularArrayActionParams.rows": "Rows",
 	"RectangularArrayActionParams.columns": "Columns",
@@ -526,5 +544,14 @@
 	"MazeActionParams.ySize": "Y Size",
 	"MazeActionParams.cellSize": "Cell Size",
 	"MazeActionParams.wallThickness": "Wall Thickness",
-	"MazeActionParams.color": "Color"
+	"MazeActionParams.color": "Color",
+
+	"VoronoiCellsActionParams.gridStep": "Grid Step",
+	"VoronoiCellsActionParams.jitterFactor": "Jitter Factor",
+	"VoronoiCellsActionParams.scaleFactor": "Scale Factor",
+
+	"ConveyorBeltActionParams.segmentCount": "Segment Count",
+	"ConveyorBeltActionParams.segmentType": "Segment Type",
+	"ConveyorBeltActionParams.color": "Color",
+	"ConveyorBeltActionParams.alternatingColor": "Alternating Color"
 }
