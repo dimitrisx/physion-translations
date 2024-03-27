@@ -182,6 +182,7 @@
 	"action.design.mirror": "Mirror Tool",
 	"action.design.circle": "Create Circle",
 	"action.design.rectangle": "Create Rectangle",
+	"action.design.capsule": "Create Capsule",
 	"action.design.polygon": "Create Polygon",
 	"action.design.regularPolygon": "Create Regular Polygon",
 	"action.design.text": "Create Text",
@@ -361,6 +362,10 @@
 	"RectangleNode.text": "Text",
 	"RectangleNode.textColor": "Text Color",
 	"RectangleNode.fontSize": "Font Size",
+
+	"CapsuleNode": "Capsule",
+	"CapsuleNode.width": "Width",
+	"CapsuleNode.height": "Height",
 
 	"MultipartBodyNode": "Multipart Body",
 	"MultipartBodyNode.drawPieces": "Draw Pieces",

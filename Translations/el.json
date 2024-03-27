@@ -182,6 +182,7 @@
 	"action.design.mirror": "Εργαλείο Αντιστροφής",
 	"action.design.circle": "Δημιουργία κύκλου",
 	"action.design.rectangle": "Δημιουργία παραλληλογράμμου",
+	"action.design.capsule": "Δημιουργία κάψουλας",
 	"action.design.polygon": "Δημιουργία πολυγώνου",
 	"action.design.regularPolygon": "Δημιουργία κανονικού πολυγώνου",
 	"action.design.text": "Δημιουργία Κειμένου",
@@ -361,6 +362,10 @@
 	"RectangleNode.text": "Κείμενο",
 	"RectangleNode.textColor": "Χρώμα κειμένου",
 	"RectangleNode.fontSize": "Μέγεθος γραμματοσειράς",
+
+	"CapsuleNode": "Κάψουλα",
+	"CapsuleNode.width": "Πλάτος",
+	"CapsuleNode.height": "Ύψος",
 
 	"MultipartBodyNode": "Πολυμερές Σώμα",
 	"MultipartBodyNode.drawPieces": "Ζωγράφισμα κομματιών",

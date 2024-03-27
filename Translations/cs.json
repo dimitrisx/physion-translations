@@ -182,6 +182,7 @@
 	"action.design.mirror": "Zrcadlit",
 	"action.design.circle": "Vytvořit kruh",
 	"action.design.rectangle": "Vytvořit obdelník",
+	"action.design.capsule": "Create Capsule",
 	"action.design.polygon": "Vytvořit mnohoúhelník",
 	"action.design.regularPolygon": "Vytvořit pravidelný mnohoúhelník",
 	"action.design.text": "Vytvořit text",
@@ -361,6 +362,10 @@
 	"RectangleNode.text": "Text",
 	"RectangleNode.textColor": "Barva textu",
 	"RectangleNode.fontSize": "Velikost fontu",
+
+	"CapsuleNode": "Capsule",
+	"CapsuleNode.width": "Width",
+	"CapsuleNode.height": "Height",
 
 	"MultipartBodyNode": "Těleso sločena několikamy částmy",
 	"MultipartBodyNode.drawPieces": "Kreslit části",

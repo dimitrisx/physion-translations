@@ -182,6 +182,7 @@
 	"action.design.mirror": "Lật",
 	"action.design.circle": "Tạo hình tròn",
 	"action.design.rectangle": "Tạo hình chữ nhật",
+	"action.design.capsule": "Create Capsule",
 	"action.design.polygon": "Tạo hình đa giác",
 	"action.design.regularPolygon": "Tạo đa giác đều",
 	"action.design.text": "Tạo văn bản",
@@ -361,6 +362,10 @@
 	"RectangleNode.text": "Văn bản",
 	"RectangleNode.textColor": "Màu văn bản",
 	"RectangleNode.fontSize": "Kích thước văn bản",
+
+	"CapsuleNode": "Capsule",
+	"CapsuleNode.width": "Width",
+	"CapsuleNode.height": "Height",
 
 	"MultipartBodyNode": "Body nhiều phần",
 	"MultipartBodyNode.drawPieces": "Vẽ các mảnh",
