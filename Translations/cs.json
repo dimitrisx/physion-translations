@@ -182,7 +182,7 @@
 	"action.design.mirror": "Zrcadlit",
 	"action.design.circle": "Vytvořit kruh",
 	"action.design.rectangle": "Vytvořit obdelník",
-	"action.design.capsule": "Create Capsule",
+	"action.design.capsule": "Vytvořit kapsli",
 	"action.design.polygon": "Vytvořit mnohoúhelník",
 	"action.design.regularPolygon": "Vytvořit pravidelný mnohoúhelník",
 	"action.design.text": "Vytvořit text",
@@ -218,7 +218,7 @@
 	"action.tools.gradient.radial.errors.invalidColor": "\"{color}\" není opravdová barva.",
 	"action.tools.gradient.radial.errors.atLeastTwoColorsRequired": "Jesou třeba aspoň 2 barvy.",
 
-	"action.tools.maze": "Maze",
+	"action.tools.maze": "Bluďiště",
 	"action.tools.maze.description": "Vygeneruje náhodné obdélníkové bludiště na základě daných parametrů. Rozměry bludiště jsou definovány pomocí velikost X a velikost Y. Velikost každé buňky je určena velikost buňek, zatímco tloušťka stěny je určena parametrem Tloušťka zdí.",
 	"action.tools.maze.errors.xSizeNotPositiveInteger": "Velikost X není pozitivní celé číso.",
 	"action.tools.maze.errors.ySizeNotPositiveInteger": "Velikost Y není pozitivní celé číso.",
@@ -363,9 +363,9 @@
 	"RectangleNode.textColor": "Barva textu",
 	"RectangleNode.fontSize": "Velikost fontu",
 
-	"CapsuleNode": "Capsule",
-	"CapsuleNode.width": "Width",
-	"CapsuleNode.height": "Height",
+	"CapsuleNode": "Kapsle",
+	"CapsuleNode.width": "Šířka",
+	"CapsuleNode.height": "Výška",
 
 	"MultipartBodyNode": "Těleso sločena několikamy částmy",
 	"MultipartBodyNode.drawPieces": "Kreslit části",
