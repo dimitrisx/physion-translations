@@ -330,6 +330,7 @@
 	"GraphicsNode.fillAlpha": "Độ trong suốt",
 	"GraphicsNode.fillTexture": "Ảnh",
 	"GraphicsNode.fillMatrix": "Ma trận hình ảnh",
+	"GraphicsNode.blendMode": "Blend Mode",
 
 	"BodyNode": "Body",
 	"BodyNode.bodyType": "Loại Body",
@@ -366,7 +367,7 @@
 	"CapsuleNode": "Capsule",
 	"CapsuleNode.width": "Width",
 	"CapsuleNode.height": "Height",
-
+	
 	"MultipartBodyNode": "Body nhiều phần",
 	"MultipartBodyNode.drawPieces": "Vẽ các mảnh",
 	

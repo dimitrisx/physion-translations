@@ -330,6 +330,7 @@
 	"GraphicsNode.fillAlpha": "Αδιαφάνεια Γεμίσματος",
 	"GraphicsNode.fillTexture": "Εικόνα Γεμίσματος",
 	"GraphicsNode.fillMatrix": "Πίνακας Γεμίσματος",
+	"GraphicsNode.blendMode": "Blend Mode",
 
 	"BodyNode": "Σώμα",
 	"BodyNode.bodyType": "Τύπος Σώματος",

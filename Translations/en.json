@@ -330,6 +330,7 @@
 	"GraphicsNode.fillAlpha": "Fill Alpha",
 	"GraphicsNode.fillTexture": "Fill Texture",
 	"GraphicsNode.fillMatrix": "Fill Matrix",
+	"GraphicsNode.blendMode": "Blend Mode",
 
 	"BodyNode": "Body",
 	"BodyNode.bodyType": "Body Type",

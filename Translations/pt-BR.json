@@ -330,6 +330,7 @@
 	"GraphicsNode.fillAlpha": "Preencher Alfa",
 	"GraphicsNode.fillTexture": "Fill Texture",
 	"GraphicsNode.fillMatrix": "Matriz de preenchimento",
+	"GraphicsNode.blendMode": "Blend Mode",
 
 	"BodyNode": "Corpo",
 	"BodyNode.bodyType": "Tipo de corpo",
@@ -366,7 +367,7 @@
 	"CapsuleNode": "Capsule",
 	"CapsuleNode.width": "Width",
 	"CapsuleNode.height": "Height",
-		
+	
 	"MultipartBodyNode": "Multipart Body",
 	"MultipartBodyNode.drawPieces": "Desenhar peças",
 

@@ -330,6 +330,7 @@
 	"GraphicsNode.fillAlpha": "Průhlednost výplně",
 	"GraphicsNode.fillTexture": "Textura výplně",
 	"GraphicsNode.fillMatrix": "Metrix výplně",
+	"GraphicsNode.blendMode": "Blend Mode",
 
 	"BodyNode": "Těleso",
 	"BodyNode.bodyType": "Typ Tělesa",
@@ -366,7 +367,7 @@
 	"CapsuleNode": "Kapsle",
 	"CapsuleNode.width": "Šířka",
 	"CapsuleNode.height": "Výška",
-
+	
 	"MultipartBodyNode": "Těleso sločena několikamy částmy",
 	"MultipartBodyNode.drawPieces": "Kreslit části",
 	
