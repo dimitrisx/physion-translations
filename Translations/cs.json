@@ -193,6 +193,7 @@
 	"action.design.joint.weld": "Vytvořit svar",
 	"action.design.joint.revolute": "Vytvořit ložisko",
 	"action.design.joint.distance": "Vytvořit vzdálené spojení",
+	"action.design.joint.wheel": "Create Wheel Joint",
 	"action.design.joint.mouse": "Tahat myší",
 	"action.design.spring": "Vytvořit pružinu",
 	"action.design.particleGroup": "Create Particle Group",
@@ -294,6 +295,7 @@
 	"GeneralSection": "Obecné",
 	"GeneralSection.createGroundOnNewScene": "Vytvořit zem v nové scéňe",
 	"GeneralSection.defaultViewportPluginsOptions": "Default Viewport Plugins Options",
+	"GeneralSection.colorPalette": "Color Palette",
 
 	"Node": "Objekt",
 	"Node.x": "X",
@@ -356,7 +358,10 @@
 	"CircleNode": "Kruh",
 	"CircleNode.radius": "Průměr",
 	"CircleNode.drawLine": "Kreslit čáru",
-
+	"CircleNode.text": "Text",
+	"CircleNode.textColor": "Text Color",
+	"CircleNode.fontSize": "Font Size",
+	
 	"RectangleNode": "Obdelník",
 	"RectangleNode.width": "Šířka",
 	"RectangleNode.height": "Výška",
@@ -367,7 +372,10 @@
 	"CapsuleNode": "Kapsle",
 	"CapsuleNode.width": "Šířka",
 	"CapsuleNode.height": "Výška",
-	
+	"CapsuleNode.text": "Text",
+	"CapsuleNode.textColor": "Text Color",
+	"CapsuleNode.fontSize": "Font Size",
+		
 	"MultipartBodyNode": "Těleso sločena několikamy částmy",
 	"MultipartBodyNode.drawPieces": "Kreslit části",
 	
@@ -435,6 +443,18 @@
 	"DistanceJointNode.frequencyHz": "Frekvence Hz",
 	"DistanceJointNode.dampingRatio": "Poměr tlumení",
 
+	"WheelJointNode": "Wheel Joint",
+	"WheelJointNode.localAxisA": "Local Axis A",
+	"WheelJointNode.limitEnabled": "Limit Enabled",
+	"WheelJointNode.lowerTranslation": "Lower Translation",
+	"WheelJointNode.upperTranslation": "Upper Translation",
+	"WheelJointNode.motorEnabled": "Motor Enabled",
+	"WheelJointNode.maxMotorTorque": "Max Motor Torque",
+	"WheelJointNode.motorSpeed": "Motor Speed",
+	"WheelJointNode.frequencyHz": "Frequency Hz",
+	"WheelJointNode.dampingRatio": "Damping Ratio",
+	"WheelJointNode.drawOptions": "Draw Options",
+		
 	"SpringNode": "Pružina",
 	"SpringNode.bodyNodeAid": "Ťeleso A",
 	"SpringNode.bodyNodeBid": "Ťeleso B",
@@ -494,6 +514,17 @@
 	"TilingSpriteNode.width": "Šířka",
 	"TilingSpriteNode.height": "Výška",
 
+	"AnimatedSpriteNode": "Animated Sprite",
+	"AnimatedSpriteNode.spritesheetTexture": "Spritesheet Texture",
+	"AnimatedSpriteNode.spritesheetData": "Spritesheet Data",
+	"AnimatedSpriteNode.currentAnimation": "Current Animation",
+	"AnimatedSpriteNode.scaleX": "Scale X",
+	"AnimatedSpriteNode.scaleY": "Scale Y",
+	"AnimatedSpriteNode.anchorX": "Anchor X",
+	"AnimatedSpriteNode.anchorY": "Anchor Y",
+	"AnimatedSpriteNode.animationSpeed": "Animation Speed",
+	"AnimatedSpriteNode.loop": "Loop",
+	
 	"ParticleGroupNode": "Skupina částic",
 	"ParticleGroupNode.internalState": "Interní status",
 	"ParticleGroupNode.particleFlags": "Particle Flags",

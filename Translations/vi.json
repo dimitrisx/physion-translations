@@ -193,6 +193,7 @@
 	"action.design.joint.weld": "Tạo liên kết hàn",
 	"action.design.joint.revolute": "Tạo trục quay",
 	"action.design.joint.distance": "Tạo liên kết từ xa",
+	"action.design.joint.wheel": "Create Wheel Joint",
 	"action.design.joint.mouse": "Kéo chuột",
 	"action.design.spring": "Tạo lò xo",
 	"action.design.particleGroup": "Create Particle Group",
@@ -294,6 +295,7 @@
 	"GeneralSection": "Chung",
 	"GeneralSection.createGroundOnNewScene": "Tạo nền cho cảnh mới",
 	"GeneralSection.defaultViewportPluginsOptions": "Default Viewport Plugins Options",
+	"GeneralSection.colorPalette": "Color Palette",
 
 	"Node": "Node",
 	"Node.x": "Vị trí X",
@@ -356,7 +358,10 @@
 	"CircleNode": "Hình tròn",
 	"CircleNode.radius": "Đường kính",
 	"CircleNode.drawLine": "Vẽ bán kính",
-
+	"CircleNode.text": "Văn bản",
+	"CircleNode.textColor": "Màu văn bản",
+	"CircleNode.fontSize": "Kích thước văn bản",
+	
 	"RectangleNode": "Hình chữ nhật",
 	"RectangleNode.width": "Chiều rộng",
 	"RectangleNode.height": "Chiều dài",
@@ -367,7 +372,10 @@
 	"CapsuleNode": "Capsule",
 	"CapsuleNode.width": "Width",
 	"CapsuleNode.height": "Height",
-	
+	"CapsuleNode.text": "Văn bản",
+	"CapsuleNode.textColor": "Màu văn bản",
+	"CapsuleNode.fontSize": "Kích thước văn bản",
+		
 	"MultipartBodyNode": "Body nhiều phần",
 	"MultipartBodyNode.drawPieces": "Vẽ các mảnh",
 	
@@ -435,6 +443,18 @@
 	"DistanceJointNode.frequencyHz": "Tần số Hz",
 	"DistanceJointNode.dampingRatio": "Tỷ lệ giảm xóc",
 
+	"WheelJointNode": "Wheel Joint",
+	"WheelJointNode.localAxisA": "Local Axis A",
+	"WheelJointNode.limitEnabled": "Limit Enabled",
+	"WheelJointNode.lowerTranslation": "Lower Translation",
+	"WheelJointNode.upperTranslation": "Upper Translation",
+	"WheelJointNode.motorEnabled": "Motor Enabled",
+	"WheelJointNode.maxMotorTorque": "Max Motor Torque",
+	"WheelJointNode.motorSpeed": "Motor Speed",
+	"WheelJointNode.frequencyHz": "Frequency Hz",
+	"WheelJointNode.dampingRatio": "Damping Ratio",
+	"WheelJointNode.drawOptions": "Draw Options",
+	
 	"SpringNode": "Lò xo",
 	"SpringNode.bodyNodeAid": "Body A",
 	"SpringNode.bodyNodeBid": "Body B",
@@ -494,6 +514,17 @@
 	"TilingSpriteNode.width": "Độ rộng",
 	"TilingSpriteNode.height": "Độ cao",
 	
+	"AnimatedSpriteNode": "Animated Sprite",
+	"AnimatedSpriteNode.spritesheetTexture": "Spritesheet Texture",
+	"AnimatedSpriteNode.spritesheetData": "Spritesheet Data",
+	"AnimatedSpriteNode.currentAnimation": "Current Animation",
+	"AnimatedSpriteNode.scaleX": "Scale X",
+	"AnimatedSpriteNode.scaleY": "Scale Y",
+	"AnimatedSpriteNode.anchorX": "Anchor X",
+	"AnimatedSpriteNode.anchorY": "Anchor Y",
+	"AnimatedSpriteNode.animationSpeed": "Animation Speed",
+	"AnimatedSpriteNode.loop": "Loop",
+
 	"ParticleGroupNode": "Nhóm hạt",
 	"ParticleGroupNode.internalState": "Trạng thái",
 	"ParticleGroupNode.particleFlags": "Particle Flags",

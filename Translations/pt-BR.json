@@ -193,6 +193,7 @@
 	"action.design.joint.weld": "Create Weld Joint",
 	"action.design.joint.revolute": "Revoluir Articulação",
 	"action.design.joint.distance": "Junta de distância",
+	"action.design.joint.wheel": "Create Wheel Joint",
 	"action.design.joint.mouse": "Articulação do Mouse",
 	"action.design.spring": "Create Spring",
 	"action.design.particleGroup": "Create Particle Group",
@@ -294,6 +295,7 @@
 	"GeneralSection": "Geral",
 	"GeneralSection.createGroundOnNewScene": "Crie terreno na nova cena",
 	"GeneralSection.defaultViewportPluginsOptions": "Default Viewport Plugins Options",
+	"GeneralSection.colorPalette": "Color Palette",
 
 	"Node": "Nó",
 	"Node.x": "X",
@@ -356,7 +358,10 @@
 	"CircleNode": "Círculo",
 	"CircleNode.radius": "Raio",
 	"CircleNode.drawLine": "Desenhar linha",
-
+	"CircleNode.text": "Text",
+	"CircleNode.textColor": "Text Color",
+	"CircleNode.fontSize": "Font Size",
+	
 	"RectangleNode": "Retângulo",
 	"RectangleNode.width": "Largura",
 	"RectangleNode.height": "Altura",
@@ -367,7 +372,10 @@
 	"CapsuleNode": "Capsule",
 	"CapsuleNode.width": "Width",
 	"CapsuleNode.height": "Height",
-	
+	"CapsuleNode.text": "Text",
+	"CapsuleNode.textColor": "Text Color",
+	"CapsuleNode.fontSize": "Font Size",
+		
 	"MultipartBodyNode": "Multipart Body",
 	"MultipartBodyNode.drawPieces": "Desenhar peças",
 
@@ -435,6 +443,18 @@
 	"DistanceJointNode.frequencyHz": "Frequency Hz",
 	"DistanceJointNode.dampingRatio": "Damping Ratio",
 
+	"WheelJointNode": "Wheel Joint",
+	"WheelJointNode.localAxisA": "Local Axis A",
+	"WheelJointNode.limitEnabled": "Limit Enabled",
+	"WheelJointNode.lowerTranslation": "Lower Translation",
+	"WheelJointNode.upperTranslation": "Upper Translation",
+	"WheelJointNode.motorEnabled": "Motor Enabled",
+	"WheelJointNode.maxMotorTorque": "Max Motor Torque",
+	"WheelJointNode.motorSpeed": "Motor Speed",
+	"WheelJointNode.frequencyHz": "Frequency Hz",
+	"WheelJointNode.dampingRatio": "Damping Ratio",
+	"WheelJointNode.drawOptions": "Draw Options",
+	
 	"SpringNode": "Spring Node",
 	"SpringNode.bodyNodeAid": "Body A",
 	"SpringNode.bodyNodeBid": "Body B",
@@ -494,6 +514,17 @@
 	"TilingSpriteNode.width": "Width",
 	"TilingSpriteNode.height": "Height",
 	
+	"AnimatedSpriteNode": "Animated Sprite",
+	"AnimatedSpriteNode.spritesheetTexture": "Spritesheet Texture",
+	"AnimatedSpriteNode.spritesheetData": "Spritesheet Data",
+	"AnimatedSpriteNode.currentAnimation": "Current Animation",
+	"AnimatedSpriteNode.scaleX": "Scale X",
+	"AnimatedSpriteNode.scaleY": "Scale Y",
+	"AnimatedSpriteNode.anchorX": "Anchor X",
+	"AnimatedSpriteNode.anchorY": "Anchor Y",
+	"AnimatedSpriteNode.animationSpeed": "Animation Speed",
+	"AnimatedSpriteNode.loop": "Loop",
+
 	"ParticleGroupNode": "Particle Group",
 	"ParticleGroupNode.internalState": "Internal State",
 	"ParticleGroupNode.particleFlags": "Particle Flags",

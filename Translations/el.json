@@ -193,6 +193,7 @@
 	"action.design.joint.weld": "Δημιουργία Συνδέσμου Συγκόλλησης",
 	"action.design.joint.revolute": "Δημιουργία Συνδέσμου Περιστροφής",
 	"action.design.joint.distance": "Δημιουργία Συνδέσμου Απόστασης",
+	"action.design.joint.wheel": "Create Wheel Joint",
 	"action.design.joint.mouse": "Δημιουργία Συνδέσμου Ποντικιού",
 	"action.design.spring": "Δημιουργία Ελατηρίου",
 	"action.design.particleGroup": "Create Particle Group",
@@ -294,6 +295,7 @@
 	"GeneralSection": "Γενικές",
 	"GeneralSection.createGroundOnNewScene": "Δημιουργία εδάφους στις νέες σκηνές",
 	"GeneralSection.defaultViewportPluginsOptions": "Default Viewport Plugins Options",
+	"GeneralSection.colorPalette": "Color Palette",
 
 	"Node": "Κόμβος",
 	"Node.x": "X",
@@ -356,7 +358,10 @@
 	"CircleNode": "Κύκλος",
 	"CircleNode.radius": "Ακτίνα",
 	"CircleNode.drawLine": "Ζωγράφισμα Γραμμής",
-
+	"CircleNode.text": "Κείμενο",
+	"CircleNode.textColor": "Χρώμα κειμένου",
+	"CircleNode.fontSize": "Μέγεθος γραμματοσειράς",
+	
 	"RectangleNode": "Παραλληλόγραμμο",
 	"RectangleNode.width": "Πλάτος",
 	"RectangleNode.height": "Ύψος",
@@ -367,7 +372,10 @@
 	"CapsuleNode": "Κάψουλα",
 	"CapsuleNode.width": "Πλάτος",
 	"CapsuleNode.height": "Ύψος",
-
+	"CapsuleNode.text": "Κείμενο",
+	"CapsuleNode.textColor": "Χρώμα κειμένου",
+	"CapsuleNode.fontSize": "Μέγεθος γραμματοσειράς",
+	
 	"MultipartBodyNode": "Πολυμερές Σώμα",
 	"MultipartBodyNode.drawPieces": "Ζωγράφισμα κομματιών",
 
@@ -435,6 +443,18 @@
 	"DistanceJointNode.frequencyHz": "Συχνότητα Hz",
 	"DistanceJointNode.dampingRatio": "Απόσβεση",
 
+	"WheelJointNode": "Wheel Joint",
+	"WheelJointNode.localAxisA": "Local Axis A",
+	"WheelJointNode.limitEnabled": "Limit Enabled",
+	"WheelJointNode.lowerTranslation": "Lower Translation",
+	"WheelJointNode.upperTranslation": "Upper Translation",
+	"WheelJointNode.motorEnabled": "Motor Enabled",
+	"WheelJointNode.maxMotorTorque": "Max Motor Torque",
+	"WheelJointNode.motorSpeed": "Motor Speed",
+	"WheelJointNode.frequencyHz": "Frequency Hz",
+	"WheelJointNode.dampingRatio": "Damping Ratio",
+	"WheelJointNode.drawOptions": "Draw Options",
+	
 	"SpringNode": "Ελατήριο",
 	"SpringNode.bodyNodeAid": "Σώμα A",
 	"SpringNode.bodyNodeBid": "Σώμα B",
@@ -494,6 +514,17 @@
 	"TilingSpriteNode.width": "Μήκος",
 	"TilingSpriteNode.height": "Ύψος",
 
+	"AnimatedSpriteNode": "Animated Sprite",
+	"AnimatedSpriteNode.spritesheetTexture": "Spritesheet Texture",
+	"AnimatedSpriteNode.spritesheetData": "Spritesheet Data",
+	"AnimatedSpriteNode.currentAnimation": "Current Animation",
+	"AnimatedSpriteNode.scaleX": "Scale X",
+	"AnimatedSpriteNode.scaleY": "Scale Y",
+	"AnimatedSpriteNode.anchorX": "Anchor X",
+	"AnimatedSpriteNode.anchorY": "Anchor Y",
+	"AnimatedSpriteNode.animationSpeed": "Animation Speed",
+	"AnimatedSpriteNode.loop": "Loop",
+	
 	"ParticleGroupNode": "Particle Group",
 	"ParticleGroupNode.internalState": "Internal State",
 	"ParticleGroupNode.particleFlags": "Particle Flags",
