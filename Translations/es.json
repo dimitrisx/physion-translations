@@ -1,4 +1,3 @@
-```json
 {
 	"helloWorld": "¡Hola mundo!",
 	"test": "Prueba",
@@ -632,4 +631,3 @@
 	"RagdollActionParams.skinColor": "Color de piel",
 	"RagdollActionParams.clothesColor": "Color de ropa"
 }
-```
