@@ -39,6 +39,9 @@
 	"BitfieldEditor.checkAll": "Chọn tất cả",
 	"BitfieldEditor.uncheckAll": "Bỏ chọn tất cả",
 
+	"EnumEditor.checkAll": "Check All",
+	"EnumEditor.uncheckAll": "Uncheck All",
+
 	"UserInfoDialog.title": "Thông tin người dùng",
 
 	"UserInfo.aboutMe": "Về tôi",
@@ -169,7 +172,10 @@
 	"action.view.zoom.reset": "Đặt lại thu phóng",
 	"action.view.zoom.scene": "Phóng toàn bộ Scene",
 	"action.view.zoom.selected": "Phóng vào Node được chọn",
-	"action.view.layout.reset": "Đặt lại bố cục",
+	"action.view.layout.default": "Default",
+	"action.view.layout.minimal": "Minimal",
+	"action.view.layout.oneColumnLeft": "1-Column Left",
+	"action.view.layout.oneColumnRight": "1-Column Right",
 	"action.help.documentation": "Tài liệu",
 	"action.help.about": "Về Physion",
 	"action.help.changelog": "Changelog",

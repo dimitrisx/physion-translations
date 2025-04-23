@@ -39,6 +39,9 @@
 	"BitfieldEditor.checkAll": "Zaškrknout vše",
 	"BitfieldEditor.uncheckAll": "Odškrknout vŠe",
 
+	"EnumEditor.checkAll": "Check All",
+	"EnumEditor.uncheckAll": "Uncheck All",
+
 	"UserInfoDialog.title": "Informace uživatele",
 
 	"UserInfo.aboutMe": "O mně",
@@ -169,7 +172,10 @@
 	"action.view.zoom.reset": "Vynulovat příblížení",
 	"action.view.zoom.scene": "Příblížit na scénu",
 	"action.view.zoom.selected": "Příblížit na zvolené",
-	"action.view.layout.reset": "Obnovit rozhraní",
+	"action.view.layout.default": "Default",
+	"action.view.layout.minimal": "Minimal",
+	"action.view.layout.oneColumnLeft": "1-Column Left",
+	"action.view.layout.oneColumnRight": "1-Column Right",
 	"action.help.documentation": "Dokumentace",
 	"action.help.about": "O Physionu",
 	"action.help.changelog": "Seznam změn",

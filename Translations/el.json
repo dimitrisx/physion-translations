@@ -39,6 +39,9 @@
 	"BitfieldEditor.checkAll": "Επιλογή όλων",
 	"BitfieldEditor.uncheckAll": "Αποεπιλογή όλων",
 
+	"EnumEditor.checkAll": "Check All",
+	"EnumEditor.uncheckAll": "Uncheck All",
+
 	"UserInfoDialog.title": "Πληροφορίες Χρήστη",
 
 	"UserInfo.aboutMe": "Σχετικά με εμένα",
@@ -169,7 +172,10 @@
 	"action.view.zoom.reset": "Επαναφορά Ζουμ",
 	"action.view.zoom.scene": "Ζουμ Σκηνής",
 	"action.view.zoom.selected": "Ζουμ Επιλεγμένων",
-	"action.view.layout.reset": "Επαναφορά Διάταξης",
+	"action.view.layout.default": "Default",
+	"action.view.layout.minimal": "Minimal",
+	"action.view.layout.oneColumnLeft": "1-Column Left",
+	"action.view.layout.oneColumnRight": "1-Column Right",
 	"action.help.documentation": "Τεκμηρίωση",
 	"action.help.about": "Σχετικά με το Physion",
 	"action.help.changelog": "Ημερολόγιο Αλλαγών",

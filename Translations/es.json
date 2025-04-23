@@ -39,6 +39,9 @@
 	"BitfieldEditor.checkAll": "Seleccionar todo",
 	"BitfieldEditor.uncheckAll": "Deseleccionar todo",
 
+	"EnumEditor.checkAll": "Check All",
+	"EnumEditor.uncheckAll": "Uncheck All",
+
 	"UserInfoDialog.title": "Información del usuario",
 
 	"UserInfo.aboutMe": "Sobre mí",
@@ -169,7 +172,10 @@
 	"action.view.zoom.reset": "Reiniciar zoom",
 	"action.view.zoom.scene": "Zoom a la escena",
 	"action.view.zoom.selected": "Zoom al seleccionado",
-	"action.view.layout.reset": "Restablecer diseño",
+	"action.view.layout.default": "Default",
+	"action.view.layout.minimal": "Minimal",
+	"action.view.layout.oneColumnLeft": "1-Column Left",
+	"action.view.layout.oneColumnRight": "1-Column Right",
 	"action.help.documentation": "Documentación",
 	"action.help.about": "Acerca de Physion",
 	"action.help.changelog": "Registro de cambios",
